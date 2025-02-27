@@ -495,7 +495,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.6285751298948268,
+        "zoomFactor": 1.1046105142836893,
         "windowMask": false
       },
       "objectsGroups": [
@@ -553,36 +553,6 @@
       ],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "House2",
-          "persistentUuid": "50cf5a76-1b21-413d-b097-4006410e19a0",
-          "width": 0,
-          "x": 669,
-          "y": 198,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "House1",
-          "persistentUuid": "257f2fba-4cf0-4939-a27a-8a1be20a6360",
-          "width": 0,
-          "x": 772,
-          "y": 151,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -1449,21 +1419,6 @@
           "x": 919,
           "y": 132,
           "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "House1",
-          "persistentUuid": "1617e46b-73cf-4a15-83a5-6d73899c0a54",
-          "width": 0,
-          "x": 772,
-          "y": 247,
-          "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
