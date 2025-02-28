@@ -1307,7 +1307,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 1.7573245611364243,
+        "zoomFactor": 1.141858345435439,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3385,6 +3385,21 @@
           "x": 376,
           "y": 407,
           "zOrder": 2004,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Tree2",
+          "persistentUuid": "07bbe94b-0ff9-48ed-81e1-175de83dcdbd",
+          "width": 0,
+          "x": 656,
+          "y": 351,
+          "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
