@@ -1228,6 +1228,14 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/ddf4cb8280078d5a1059a1e7d3ba54c5f15e54bb52fcb02ebb92a8369353ef84_Female Character 7_Walking Up_3.png",
           "name": "Female Character 7_Walking Up_3.png"
         }
+      },
+      {
+        "file": "assets/Female Character 11_Walking Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Female Character 11_Walking Down_1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -7664,22 +7672,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 392,
-          "layer": "",
-          "name": "Player",
-          "persistentUuid": "9176821a-39ac-48bf-a647-1af51f1cf6b8",
-          "width": 440,
-          "x": 135,
-          "y": 168,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
           "height": 213,
           "layer": "Dialogue",
           "name": "TextBorder",
@@ -7774,47 +7766,32 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 192,
-          "layer": "Background",
-          "name": "Background",
-          "persistentUuid": "a759a552-ce69-4fb4-bf22-05ee11499324",
-          "width": 256,
-          "x": 1355,
-          "y": 368,
-          "zOrder": 11,
+          "depth": 1,
+          "height": 397,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "8a86ef04-6dc6-42a1-8bf0-ac2777408c57",
+          "width": 405,
+          "x": 189,
+          "y": 145,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 32,
-          "height": 45,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
           "layer": "",
-          "name": "PlayerHealthBar",
-          "persistentUuid": "9cde94de-ddbf-4877-ae03-1b215c5b5386",
-          "width": 300,
-          "x": 207,
-          "y": 88,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 32,
-          "height": 45,
-          "layer": "",
-          "name": "EnemyHealthBar",
-          "persistentUuid": "53390a75-ebc1-4e35-88a2-0b8e656e3487",
-          "width": 300,
-          "x": 802,
-          "y": 335,
-          "zOrder": 13,
+          "name": "Background2",
+          "persistentUuid": "64eada9d-7281-48f6-83aa-7f0a209cbba4",
+          "width": 0,
+          "x": 1302,
+          "y": 256,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7913,269 +7890,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "Player",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Flash",
-              "type": "Flash::Flash",
-              "HalfPeriodTime": 0.1,
-              "IsFlashing": false,
-              "FlashDuration": 0
-            },
-            {
-              "name": "Health",
-              "type": "Health::Health",
-              "Health": 100,
-              "CurrentHealth": 0,
-              "MaxHealth": 100,
-              "DamageCooldown": 0,
-              "IsHealthJustDamaged": false,
-              "HealthRegenRate": 0,
-              "HealthRegenDelay": 0,
-              "AllowOverHealing": false,
-              "HitAtLeastOnce": false,
-              "IsJustHealed": false,
-              "CurrentShieldPoints": 0,
-              "MaxShieldPoints": 0,
-              "ShieldDuration": 5,
-              "ShieldRegenRate": 0,
-              "BlockExcessDamage": false,
-              "ShieldRegenDelay": 0,
-              "IsShieldJustDamaged": false,
-              "ChanceToDodge": 0,
-              "DamageToBeApplied": 0,
-              "FlatDamageReduction": 0,
-              "PercentDamageReduction": 0,
-              "IsJustDodged": false,
-              "ShieldDamageTaken": 0,
-              "HealToBeApplied": 0
-            },
-            {
-              "name": "ShakeObject_PositionAngle",
-              "type": "ShakeObject::ShakeObject_PositionAngle"
-            },
-            {
-              "name": "ShakeObject_PositionAngleScale",
-              "type": "ShakeObject::ShakeObject_PositionAngleScale",
-              "Scale": "Scale"
-            },
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "animations": [
-            {
-              "name": "Creature_Player",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Creature_Player.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "3d6c54e76a9a06cbd7629c1e78388d4ab808bbf36d644c61d6a14c9ad34d4f89",
-          "name": "PlayerHealthBar",
-          "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "PreviousHighValueDuration": 0,
-            "ShowLabel": true,
-            "BarTopPadding": 4,
-            "BarBottomPadding": 6,
-            "BarLeftPadding": 4,
-            "BarRightPadding": 4,
-            "MaxValue": 100,
-            "InitialValue": 100
-          },
-          "childrenContent": {
-            "Background": {
-              "bottomMargin": 6,
-              "height": 34,
-              "leftMargin": 4,
-              "rightMargin": 4,
-              "texture": "Flat Bar White Border.png",
-              "tiled": true,
-              "topMargin": 6,
-              "width": 224
-            },
-            "Buffer": {
-              "bottomMargin": 0,
-              "height": 24,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Flat Bar Red Fill Bar.png",
-              "tiled": true,
-              "topMargin": 0,
-              "width": 24
-            },
-            "FillBar": {
-              "bottomMargin": 0,
-              "height": 24,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Flat Bar Red Fill Bar.png",
-              "tiled": true,
-              "topMargin": 0,
-              "width": 24
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "100 / 100",
-              "font": "",
-              "textAlignment": "center",
-              "characterSize": 24,
-              "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255
-              },
-              "content": {
-                "bold": false,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
-                "italic": false,
-                "outlineColor": "255;255;255",
-                "outlineThickness": 2,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "0;0;0",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "100 / 100",
-                "font": "",
-                "textAlignment": "center",
-                "verticalTextAlignment": "top",
-                "characterSize": 24,
-                "color": "255;255;255"
-              }
-            }
-          }
-        },
-        {
-          "assetStoreId": "3d6c54e76a9a06cbd7629c1e78388d4ab808bbf36d644c61d6a14c9ad34d4f89",
-          "name": "EnemyHealthBar",
-          "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "PreviousHighValueDuration": 0,
-            "ShowLabel": true,
-            "BarTopPadding": 4,
-            "BarBottomPadding": 6,
-            "BarLeftPadding": 4,
-            "BarRightPadding": 4,
-            "MaxValue": 100,
-            "InitialValue": 100
-          },
-          "childrenContent": {
-            "Background": {
-              "bottomMargin": 6,
-              "height": 34,
-              "leftMargin": 4,
-              "rightMargin": 4,
-              "texture": "Flat Bar White Border.png",
-              "tiled": true,
-              "topMargin": 6,
-              "width": 224
-            },
-            "Buffer": {
-              "bottomMargin": 0,
-              "height": 24,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Flat Bar Red Fill Bar.png",
-              "tiled": true,
-              "topMargin": 0,
-              "width": 24
-            },
-            "FillBar": {
-              "bottomMargin": 0,
-              "height": 24,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Flat Bar Red Fill Bar.png",
-              "tiled": true,
-              "topMargin": 0,
-              "width": 24
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "100 / 100",
-              "font": "",
-              "textAlignment": "center",
-              "characterSize": 24,
-              "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255
-              },
-              "content": {
-                "bold": false,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
-                "italic": false,
-                "outlineColor": "255;255;255",
-                "outlineThickness": 2,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "0;0;0",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "100 / 100",
-                "font": "",
-                "textAlignment": "center",
-                "verticalTextAlignment": "top",
-                "characterSize": 24,
-                "color": "255;255;255"
-              }
-            }
-          }
-        },
-        {
           "assetStoreId": "",
           "name": "Dialogue",
           "type": "BitmapText::BitmapTextObject",
@@ -8193,7 +7907,7 @@
             }
           ],
           "content": {
-            "text": "The battle begins.",
+            "text": "Hi...",
             "opacity": 255,
             "scale": 3,
             "fontSize": 20,
@@ -8471,61 +8185,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "Background",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [
-            {
-              "effectType": "KawaseBlur",
-              "name": "Effect",
-              "doubleParameters": {
-                "blur": 10,
-                "padding": 0,
-                "pixelizeX": 1,
-                "pixelizeY": 1,
-                "quality": 3
-              },
-              "stringParameters": {},
-              "booleanParameters": {}
-            }
-          ],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "House1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "assetStoreId": "",
           "bottomMargin": 16,
           "height": 48,
@@ -8540,6 +8199,126 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Player",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Female Character 11_Walking Down_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 1,
+                            "y": 17
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "pngtree-small-building-png-image_6241917.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 86,
+                            "y": 52
+                          },
+                          {
+                            "x": 274,
+                            "y": 52
+                          },
+                          {
+                            "x": 274,
+                            "y": 308
+                          },
+                          {
+                            "x": 86,
+                            "y": 308
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -8549,7 +8328,7 @@
             "folderName": "Background",
             "children": [
               {
-                "objectName": "Background"
+                "objectName": "Background2"
               },
               {
                 "objectName": "Grass"
@@ -8559,12 +8338,6 @@
           {
             "folderName": "UI",
             "children": [
-              {
-                "objectName": "PlayerHealthBar"
-              },
-              {
-                "objectName": "EnemyHealthBar"
-              },
               {
                 "objectName": "TextBorder"
               },
@@ -8683,46 +8456,6 @@
               ]
             }
           ]
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Health display",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-                  },
-                  "parameters": [
-                    "PlayerHealthBar",
-                    "=",
-                    "Player.Health::Health()",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-                  },
-                  "parameters": [
-                    "EnemyHealthBar",
-                    "=",
-                    "Enemy.Health::Health()",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
         },
         {
           "colorB": 228,
