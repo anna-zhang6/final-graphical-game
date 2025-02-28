@@ -3015,7 +3015,7 @@
           "height": 24,
           "keepRatio": true,
           "layer": "",
-          "name": "FemaleCharacter11",
+          "name": "Player",
           "persistentUuid": "e10f8149-7c50-4f5d-9210-7619efd9f571",
           "width": 24,
           "x": 704,
@@ -4021,7 +4021,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "9af6773a55ddc01430409f858506afe9e08b86f62eacc5dd574ac399bdb14b16",
-          "name": "FemaleCharacter11",
+          "name": "Player",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -6879,7 +6879,7 @@
             "objectName": "NewSprite"
           },
           {
-            "objectName": "FemaleCharacter11"
+            "objectName": "Player"
           },
           {
             "objectName": "NewSprite2"
