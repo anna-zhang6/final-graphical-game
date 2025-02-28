@@ -547,7 +547,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 1.7573245611364243,
+        "zoomFactor": 1.3038404810405437,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2281,7 +2281,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "TextMessage": "Do you want to battle? I have the best creatures in town!"
+            "TextMessage": "Hi! It looks like your new here. Would you like to be friends?"
           }
         },
         {
