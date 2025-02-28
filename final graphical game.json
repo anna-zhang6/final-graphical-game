@@ -476,6 +476,22 @@
         "name": "pngtree-small-building-png-image_6241917.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/ACharDown1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/ACharDown1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ACharDown3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/ACharDown3.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -538,7 +554,7 @@
       "title": "",
       "v": 146,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 8,
         "gridHeight": 8,
@@ -546,8 +562,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.2,
-        "snap": true,
-        "zoomFactor": 1.3038404810405437,
+        "snap": false,
+        "zoomFactor": 2.7957271574369646,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1150,9 +1166,9 @@
           "name": "NPC",
           "persistentUuid": "196cafb9-af98-435d-8107-4675c15d4990",
           "width": 0,
-          "x": 681,
-          "y": 208,
-          "zOrder": 44,
+          "x": 824,
+          "y": 241,
+          "zOrder": 2013,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1165,9 +1181,9 @@
           "name": "E",
           "persistentUuid": "f3745d28-ecfe-4aa1-ad5d-c3d0ed30886e",
           "width": 16,
-          "x": 678,
-          "y": 185,
-          "zOrder": 600,
+          "x": 821,
+          "y": 216,
+          "zOrder": 2012,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1195,9 +1211,9 @@
           "name": "Player",
           "persistentUuid": "eb3eb9c8-9e76-4d2e-89c0-600889f54713",
           "width": 0,
-          "x": 721,
-          "y": 305,
-          "zOrder": 511,
+          "x": 720,
+          "y": 312,
+          "zOrder": 2010,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1788,7 +1804,7 @@
           "height": 72,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "building",
           "persistentUuid": "d28d486f-c722-435e-833a-4103ab9578f4",
           "width": 104,
           "x": 400,
@@ -1805,7 +1821,7 @@
           "height": 72,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "building",
           "persistentUuid": "79f8f7a9-b8d5-42c9-91a8-65dd52cc046a",
           "width": 104,
           "x": 472,
@@ -1854,7 +1870,7 @@
           "height": 72,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "building",
           "persistentUuid": "c711bb8f-5ad1-442d-bb88-e1daff017a7e",
           "width": 104,
           "x": 520,
@@ -2063,7 +2079,7 @@
           "height": 72,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "building",
           "persistentUuid": "710a35f7-853b-4591-95cf-7d8d7e69b482",
           "width": 104,
           "x": 472,
@@ -2080,7 +2096,7 @@
           "height": 72,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "building",
           "persistentUuid": "902d0af5-8c87-46c3-98a2-2ec024aa7f82",
           "width": 104,
           "x": 520,
@@ -2097,7 +2113,7 @@
           "height": 72,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "building",
           "persistentUuid": "969b2d10-5f05-4603-9ecf-f3a0bf74ab1e",
           "width": 104,
           "x": 776,
@@ -2114,12 +2130,12 @@
           "height": 72,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "building",
           "persistentUuid": "c88c41d9-d539-4561-906c-7d9384ee6cac",
           "width": 104,
           "x": 816,
           "y": 200,
-          "zOrder": 2002,
+          "zOrder": 2009,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2131,7 +2147,7 @@
           "height": 72,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "building",
           "persistentUuid": "59c1165e-0d67-4b68-83fb-b4f669ba610a",
           "width": 104,
           "x": 784,
@@ -2227,7 +2243,7 @@
           "height": 72,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "building",
           "persistentUuid": "7e5bd6d3-eaeb-42c5-8f5b-f1e7dac3c4e7",
           "width": 104,
           "x": 400,
@@ -2244,7 +2260,7 @@
           "height": 72,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "building",
           "persistentUuid": "54a28487-ff0e-4694-82ca-b0eb7c4c1de4",
           "width": 104,
           "x": 448,
@@ -2261,7 +2277,7 @@
           "height": 72,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "building",
           "persistentUuid": "d101df64-4771-465e-b361-1a945dcc512c",
           "width": 104,
           "x": 448,
@@ -3520,13 +3536,13 @@
             "rowCount": 26,
             "columnCount": 22,
             "tileSize": 16,
-            "tilesWithHitBox": "165,166,167,168,169,170,171,172,173,174,187,209,231,188,210,232,189,211,233,190,212,234,191,213,235,192,214,236,193,215,237,194,216,238,195,217,239,196,218,240,219,241,256,257,258,259,260,261,254,253,275,276,277,278,279"
+            "tilesWithHitBox": "165,166,167,168,169,170,171,172,173,174,187,209,231,188,210,232,189,211,233,190,212,234,191,213,235,192,214,236,193,215,237,194,216,238,195,217,239,196,218,240,219,241,256,257,258,259,260,261,254,253,275,276,277,278,279,34,56,35,57,36,58"
           }
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "building",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -3547,8 +3563,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": -1,
+                        "y": 1
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3559,20 +3575,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 86,
-                            "y": 52
+                            "x": 79.5,
+                            "y": 185.5
                           },
                           {
-                            "x": 274,
-                            "y": 52
+                            "x": 281.5,
+                            "y": 186.5
                           },
                           {
-                            "x": 274,
-                            "y": 308
+                            "x": 281.5,
+                            "y": 307
                           },
                           {
-                            "x": 86,
-                            "y": 308
+                            "x": 79,
+                            "y": 304.5
                           }
                         ]
                       ]
@@ -3582,6 +3598,17 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -3598,6 +3625,9 @@
           {
             "folderName": "Obstacles",
             "children": [
+              {
+                "objectName": "building"
+              },
               {
                 "objectName": "House2"
               },
@@ -3636,13 +3666,13 @@
             "objectName": "Player"
           },
           {
+            "objectName": "NewTiledSprite"
+          },
+          {
             "objectName": "NPC"
           },
           {
             "objectName": "DialogBox"
-          },
-          {
-            "objectName": "NewSprite"
           }
         ]
       },
@@ -4341,13 +4371,10 @@
           "name": "Button",
           "objects": [
             {
-              "name": "Attack1"
+              "name": "thanks_button"
             },
             {
-              "name": "Attack2"
-            },
-            {
-              "name": "Run"
+              "name": "other_options"
             }
           ]
         }
@@ -4396,22 +4423,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 392,
-          "layer": "",
-          "name": "Player",
-          "persistentUuid": "9176821a-39ac-48bf-a647-1af51f1cf6b8",
-          "width": 440,
-          "x": 135,
-          "y": 168,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
           "height": 213,
           "layer": "Dialogue",
           "name": "TextBorder",
@@ -4428,13 +4439,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 32,
-          "height": 44,
+          "height": 46,
           "layer": "Dialogue",
-          "name": "Attack1",
+          "name": "thanks_button",
           "persistentUuid": "7dc38f8a-b2d4-4716-96cc-cfda55183779",
-          "width": 171,
-          "x": 74,
-          "y": 492,
+          "width": 301,
+          "x": 275,
+          "y": 608,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -4444,30 +4455,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 32,
-          "height": 44,
+          "height": 47,
           "layer": "Dialogue",
-          "name": "Attack2",
+          "name": "other_options",
           "persistentUuid": "be19237c-cdfd-46d6-9f03-ac226e9a3f61",
-          "width": 171,
-          "x": 74,
-          "y": 557,
+          "width": 320,
+          "x": 704,
+          "y": 608,
           "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 32,
-          "height": 44,
-          "layer": "Dialogue",
-          "name": "Run",
-          "persistentUuid": "d0d0038e-afed-4b66-afad-9eb83d409837",
-          "width": 171,
-          "x": 74,
-          "y": 621,
-          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4480,8 +4475,8 @@
           "layer": "Dialogue",
           "name": "Dialogue",
           "persistentUuid": "1d6dd4c3-a14e-4637-b8ba-6dad23785fdd",
-          "width": 948,
-          "x": 278,
+          "width": 1136,
+          "x": 90,
           "y": 504,
           "zOrder": 10,
           "numberProperties": [],
@@ -4505,16 +4500,16 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 192,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
           "layer": "Background",
-          "name": "Background",
-          "persistentUuid": "a759a552-ce69-4fb4-bf22-05ee11499324",
-          "width": 256,
-          "x": 1355,
-          "y": 368,
-          "zOrder": 11,
+          "name": "background",
+          "persistentUuid": "e04d6d65-04f4-4357-9ac8-b295fb3b262c",
+          "width": 0,
+          "x": 1299,
+          "y": 250,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4522,31 +4517,16 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 32,
-          "height": 45,
+          "depth": 1,
+          "height": 428,
+          "keepRatio": true,
           "layer": "",
-          "name": "PlayerHealthBar",
-          "persistentUuid": "9cde94de-ddbf-4877-ae03-1b215c5b5386",
-          "width": 300,
-          "x": 207,
-          "y": 88,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 32,
-          "height": 45,
-          "layer": "",
-          "name": "EnemyHealthBar",
-          "persistentUuid": "53390a75-ebc1-4e35-88a2-0b8e656e3487",
-          "width": 300,
-          "x": 802,
-          "y": 335,
-          "zOrder": 13,
+          "name": "Player2",
+          "persistentUuid": "dad7b356-0b28-48a6-841c-c14eb68bf574",
+          "width": 440,
+          "x": 130,
+          "y": 117,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4624,97 +4604,6 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "assets\\Creature_Enemy.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "Player",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Flash",
-              "type": "Flash::Flash",
-              "HalfPeriodTime": 0.1,
-              "IsFlashing": false,
-              "FlashDuration": 0
-            },
-            {
-              "name": "Health",
-              "type": "Health::Health",
-              "Health": 100,
-              "CurrentHealth": 0,
-              "MaxHealth": 100,
-              "DamageCooldown": 0,
-              "IsHealthJustDamaged": false,
-              "HealthRegenRate": 0,
-              "HealthRegenDelay": 0,
-              "AllowOverHealing": false,
-              "HitAtLeastOnce": false,
-              "IsJustHealed": false,
-              "CurrentShieldPoints": 0,
-              "MaxShieldPoints": 0,
-              "ShieldDuration": 5,
-              "ShieldRegenRate": 0,
-              "BlockExcessDamage": false,
-              "ShieldRegenDelay": 0,
-              "IsShieldJustDamaged": false,
-              "ChanceToDodge": 0,
-              "DamageToBeApplied": 0,
-              "FlatDamageReduction": 0,
-              "PercentDamageReduction": 0,
-              "IsJustDodged": false,
-              "ShieldDamageTaken": 0,
-              "HealToBeApplied": 0
-            },
-            {
-              "name": "ShakeObject_PositionAngle",
-              "type": "ShakeObject::ShakeObject_PositionAngle"
-            },
-            {
-              "name": "ShakeObject_PositionAngleScale",
-              "type": "ShakeObject::ShakeObject_PositionAngleScale",
-              "Scale": "Scale"
-            },
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "animations": [
-            {
-              "name": "Creature_Player",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Creature_Player.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4925,9 +4814,9 @@
             }
           ],
           "content": {
-            "text": "The battle begins.",
+            "text": "Welcome to UCSC! I hope you have an amazing time and make lots of friends.",
             "opacity": 255,
-            "scale": 3,
+            "scale": 2,
             "fontSize": 20,
             "tint": "255;255;255",
             "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
@@ -4949,7 +4838,7 @@
         },
         {
           "assetStoreId": "90d94b6e3a23c34948e59eaaef4679740f8ab588696d59b21e0c0c2ef106b94d",
-          "name": "Attack1",
+          "name": "thanks_button",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -4989,7 +4878,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "Attack",
+              "string": "\"Thanks!\"",
               "font": "",
               "textAlignment": "left",
               "characterSize": 26,
@@ -5012,7 +4901,7 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "Attack",
+                "text": "\"Thanks!\"",
                 "font": "",
                 "textAlignment": "left",
                 "verticalTextAlignment": "top",
@@ -5034,7 +4923,7 @@
         },
         {
           "assetStoreId": "90d94b6e3a23c34948e59eaaef4679740f8ab588696d59b21e0c0c2ef106b94d",
-          "name": "Attack2",
+          "name": "other_options",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -5074,7 +4963,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "Skill",
+              "string": "\"I want to leave already\"",
               "font": "",
               "textAlignment": "left",
               "characterSize": 26,
@@ -5097,7 +4986,7 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "Skill",
+                "text": "\"I want to leave already\"",
                 "font": "",
                 "textAlignment": "left",
                 "verticalTextAlignment": "top",
@@ -5116,146 +5005,6 @@
               "width": 256
             }
           }
-        },
-        {
-          "assetStoreId": "90d94b6e3a23c34948e59eaaef4679740f8ab588696d59b21e0c0c2ef106b94d",
-          "name": "Run",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "LeftPadding": 8,
-            "RightPadding": 8,
-            "PressedLabelOffsetY": 0,
-            "IdleLabelOffsetY": -8,
-            "BottomPadding": 8,
-            "TopPadding": 8,
-            "MinimalWidth": 300
-          },
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 8,
-              "height": 106,
-              "leftMargin": 8,
-              "rightMargin": 8,
-              "texture": "Border2.png",
-              "tiled": true,
-              "topMargin": 8,
-              "width": 256
-            },
-            "Idle": {
-              "bottomMargin": 8,
-              "height": 106,
-              "leftMargin": 8,
-              "rightMargin": 8,
-              "texture": "Border.png",
-              "tiled": true,
-              "topMargin": 8,
-              "width": 256
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "Run",
-              "font": "",
-              "textAlignment": "left",
-              "characterSize": 26,
-              "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255
-              },
-              "content": {
-                "bold": false,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
-                "italic": false,
-                "outlineColor": "255;255;255",
-                "outlineThickness": 2,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "0;0;0",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "Run",
-                "font": "",
-                "textAlignment": "left",
-                "verticalTextAlignment": "top",
-                "characterSize": 26,
-                "color": "255;255;255"
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 8,
-              "height": 106,
-              "leftMargin": 8,
-              "rightMargin": 8,
-              "texture": "Border2.png",
-              "tiled": true,
-              "topMargin": 8,
-              "width": 256
-            }
-          }
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "Background",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [
-            {
-              "effectType": "KawaseBlur",
-              "name": "Effect",
-              "doubleParameters": {
-                "blur": 10,
-                "padding": 0,
-                "pixelizeX": 1,
-                "pixelizeY": 1,
-                "quality": 3
-              },
-              "stringParameters": {},
-              "booleanParameters": {}
-            }
-          ],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "House1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "assetStoreId": "",
@@ -5272,6 +5021,162 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "pngtree-small-building-png-image_6241917.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 86,
+                            "y": 52
+                          },
+                          {
+                            "x": 274,
+                            "y": 52
+                          },
+                          {
+                            "x": 274,
+                            "y": 308
+                          },
+                          {
+                            "x": 86,
+                            "y": 308
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Player2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.99,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/ACharDown1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 16
+                          },
+                          {
+                            "x": 1,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/ACharDown3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 16
+                          },
+                          {
+                            "x": 1,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -5281,7 +5186,7 @@
             "folderName": "Background",
             "children": [
               {
-                "objectName": "Background"
+                "objectName": "background"
               },
               {
                 "objectName": "Grass"
@@ -5304,13 +5209,10 @@
                 "objectName": "Dialogue"
               },
               {
-                "objectName": "Attack1"
+                "objectName": "thanks_button"
               },
               {
-                "objectName": "Attack2"
-              },
-              {
-                "objectName": "Run"
+                "objectName": "other_options"
               }
             ]
           },
@@ -5318,7 +5220,7 @@
             "objectName": "Enemy"
           },
           {
-            "objectName": "Player"
+            "objectName": "Player2"
           }
         ]
       },
@@ -5523,7 +5425,7 @@
                         "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
                       },
                       "parameters": [
-                        "Attack1",
+                        "thanks_button",
                         ""
                       ]
                     }
