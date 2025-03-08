@@ -1255,6 +1255,30 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/NewTiledSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/NewTiledSprite2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite3",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1326,7 +1350,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 1.141858345435439,
+        "zoomFactor": 1.5856546028626006,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1466,21 +1490,6 @@
           "width": 0,
           "x": 912,
           "y": 299,
-          "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree1",
-          "persistentUuid": "cf41b047-35d9-47ee-a51a-7124aca7963b",
-          "width": 0,
-          "x": 507,
-          "y": 350,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -1923,14 +1932,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 15,
           "layer": "",
           "name": "NPC",
           "persistentUuid": "196cafb9-af98-435d-8107-4675c15d4990",
-          "width": 0,
-          "x": 680,
-          "y": 215,
+          "width": 13,
+          "x": 682,
+          "y": 210,
           "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
@@ -1975,7 +1985,7 @@
           "persistentUuid": "e6e9a3f5-84bd-450b-b6b2-a52fa872e4bd",
           "width": 0,
           "x": 616,
-          "y": 270,
+          "y": 259,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -2004,7 +2014,7 @@
           "name": "Tree1",
           "persistentUuid": "73e6c36d-2f81-41c4-b21c-aa9c9455d192",
           "width": 0,
-          "x": 577,
+          "x": 568,
           "y": 350,
           "zOrder": 22,
           "numberProperties": [],
@@ -2019,7 +2029,7 @@
           "name": "Tree1",
           "persistentUuid": "ef6ea253-f38d-4c4e-9ae5-09c93459771b",
           "width": 0,
-          "x": 542,
+          "x": 520,
           "y": 350,
           "zOrder": 22,
           "numberProperties": [],
@@ -2552,7 +2562,7 @@
           "height": 72,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Building",
           "persistentUuid": "d28d486f-c722-435e-833a-4103ab9578f4",
           "width": 104,
           "x": 400,
@@ -2569,7 +2579,7 @@
           "height": 72,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Building",
           "persistentUuid": "79f8f7a9-b8d5-42c9-91a8-65dd52cc046a",
           "width": 104,
           "x": 472,
@@ -2618,7 +2628,7 @@
           "height": 72,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Building",
           "persistentUuid": "c711bb8f-5ad1-442d-bb88-e1daff017a7e",
           "width": 104,
           "x": 520,
@@ -2827,7 +2837,7 @@
           "height": 72,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Building",
           "persistentUuid": "710a35f7-853b-4591-95cf-7d8d7e69b482",
           "width": 104,
           "x": 472,
@@ -2844,7 +2854,7 @@
           "height": 72,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Building",
           "persistentUuid": "902d0af5-8c87-46c3-98a2-2ec024aa7f82",
           "width": 104,
           "x": 520,
@@ -2861,7 +2871,7 @@
           "height": 72,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Building",
           "persistentUuid": "969b2d10-5f05-4603-9ecf-f3a0bf74ab1e",
           "width": 104,
           "x": 776,
@@ -2878,7 +2888,7 @@
           "height": 72,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Building",
           "persistentUuid": "c88c41d9-d539-4561-906c-7d9384ee6cac",
           "width": 104,
           "x": 816,
@@ -2895,7 +2905,7 @@
           "height": 72,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Building",
           "persistentUuid": "59c1165e-0d67-4b68-83fb-b4f669ba610a",
           "width": 104,
           "x": 784,
@@ -2963,7 +2973,7 @@
           "persistentUuid": "b1d8bfee-883f-4b13-9aef-fd38949ac5d7",
           "width": 0,
           "x": 480,
-          "y": 343,
+          "y": 351,
           "zOrder": 2007,
           "numberProperties": [],
           "stringProperties": [],
@@ -2991,7 +3001,7 @@
           "height": 72,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Building",
           "persistentUuid": "7e5bd6d3-eaeb-42c5-8f5b-f1e7dac3c4e7",
           "width": 104,
           "x": 400,
@@ -3008,7 +3018,7 @@
           "height": 72,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Building",
           "persistentUuid": "54a28487-ff0e-4694-82ca-b0eb7c4c1de4",
           "width": 104,
           "x": 448,
@@ -3025,7 +3035,7 @@
           "height": 72,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Building",
           "persistentUuid": "d101df64-4771-465e-b361-1a945dcc512c",
           "width": 104,
           "x": 448,
@@ -3039,15 +3049,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
           "name": "Player",
           "persistentUuid": "e10f8149-7c50-4f5d-9210-7619efd9f571",
-          "width": 24,
-          "x": 704,
-          "y": 264,
-          "zOrder": 2008,
+          "width": 16,
+          "x": 712,
+          "y": 336,
+          "zOrder": 2017,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3226,14 +3236,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
           "name": "FemaleCharacter10",
           "persistentUuid": "8cefd963-0f3a-4802-bd79-01d249d0a6da",
-          "width": 24,
+          "width": 16,
           "x": 584,
-          "y": 240,
+          "y": 248,
           "zOrder": 2013,
           "numberProperties": [],
           "stringProperties": [],
@@ -3243,14 +3253,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
           "name": "MaleCharacter3",
           "persistentUuid": "dfb411d3-88bd-405d-9427-15748d2cb3cd",
-          "width": 24,
+          "width": 16,
           "x": 560,
-          "y": 240,
+          "y": 248,
           "zOrder": 2014,
           "numberProperties": [],
           "stringProperties": [],
@@ -3260,14 +3270,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
           "name": "MaleCharacter7",
           "persistentUuid": "e6499fd7-27a0-4411-88f1-ca6c133b3e7e",
           "width": 16,
           "x": 512,
-          "y": 296,
+          "y": 304,
           "zOrder": 2015,
           "numberProperties": [],
           "stringProperties": [],
@@ -3277,14 +3287,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
           "name": "FemaleCharacter7",
           "persistentUuid": "54323218-1dad-4b4b-8437-6f580caa7109",
-          "width": 24,
+          "width": 16,
           "x": 528,
-          "y": 296,
+          "y": 304,
           "zOrder": 2016,
           "numberProperties": [],
           "stringProperties": [],
@@ -3294,12 +3304,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
           "name": "MaleCharacter3",
           "persistentUuid": "0a7f82fc-fea7-4e7d-9e78-4fdc9c689de0",
-          "width": 24,
+          "width": 16,
           "x": 824,
           "y": 112,
           "zOrder": 2014,
@@ -3311,13 +3321,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
           "name": "MaleCharacter7",
           "persistentUuid": "af75b37c-6cc3-4527-890e-7adaaf4b1dd1",
           "width": 16,
-          "x": 848,
+          "x": 840,
           "y": 112,
           "zOrder": 2015,
           "numberProperties": [],
@@ -3328,13 +3338,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
           "name": "FemaleCharacter7",
           "persistentUuid": "8f9b2bbe-75b8-4192-b007-c5d5eeb5de44",
-          "width": 24,
-          "x": 816,
+          "width": 16,
+          "x": 824,
           "y": 208,
           "zOrder": 2016,
           "numberProperties": [],
@@ -3345,14 +3355,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
           "name": "MaleCharacter3",
           "persistentUuid": "4d770f4a-5966-4f0e-84bb-4eebfb8d31d0",
-          "width": 24,
-          "x": 440,
-          "y": 160,
+          "width": 16,
+          "x": 448,
+          "y": 168,
           "zOrder": 2014,
           "numberProperties": [],
           "stringProperties": [],
@@ -3362,13 +3372,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
           "name": "FemaleCharacter10",
           "persistentUuid": "f6e0c56e-4309-451f-98e2-8da17441a8cb",
-          "width": 24,
-          "x": 864,
+          "width": 16,
+          "x": 872,
           "y": 248,
           "zOrder": 2013,
           "numberProperties": [],
@@ -3379,14 +3389,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
           "name": "FemaleCharacter10",
           "persistentUuid": "63cf5d81-3e37-4f0b-bb1a-b4606b794c95",
-          "width": 24,
+          "width": 16,
           "x": 496,
-          "y": 160,
+          "y": 168,
           "zOrder": 2013,
           "numberProperties": [],
           "stringProperties": [],
@@ -3410,15 +3420,102 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 8,
+          "keepRatio": true,
           "layer": "",
-          "name": "Tree2",
-          "persistentUuid": "07bbe94b-0ff9-48ed-81e1-175de83dcdbd",
-          "width": 0,
-          "x": 656,
-          "y": 351,
-          "zOrder": 32,
+          "name": "NewTiledSprite2",
+          "persistentUuid": "7e87366d-c9ba-4514-87e4-ead19e4d8cf2",
+          "width": 224,
+          "x": 768,
+          "y": 312,
+          "zOrder": -2003,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 136,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "eb0de85d-aa0d-4bcf-b518-2afce494980e",
+          "width": 8,
+          "x": 768,
+          "y": 296,
+          "zOrder": -2004,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 288,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "4727c0e6-669f-4560-9283-2d01b4e88148",
+          "width": 8,
+          "x": 976,
+          "y": 24,
+          "zOrder": -2002,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 8,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "9aa27d6a-b988-4ec6-aa53-b131c432612f",
+          "width": 416,
+          "x": 360,
+          "y": 424,
+          "zOrder": -2005,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 416,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "e031c6b3-f908-48a6-beec-4e43c945288f",
+          "width": 8,
+          "x": 360,
+          "y": 8,
+          "zOrder": -2006,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 8,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "ebad901c-bdd9-4f90-b927-43197be70d92",
+          "width": 616,
+          "x": 360,
+          "y": 32,
+          "zOrder": -2001,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4001,9 +4098,9 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "Building",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -4036,12 +4133,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 86,
-                            "y": 52
+                            "x": 87,
+                            "y": 193.5
                           },
                           {
-                            "x": 274,
-                            "y": 52
+                            "x": 274.5,
+                            "y": 195
                           },
                           {
                             "x": 274,
@@ -4061,7 +4158,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "9af6773a55ddc01430409f858506afe9e08b86f62eacc5dd574ac399bdb14b16",
           "name": "Player",
           "type": "Sprite",
@@ -4188,11 +4285,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
@@ -4224,11 +4321,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
@@ -4260,11 +4357,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
@@ -4308,11 +4405,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
@@ -4344,11 +4441,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
@@ -4380,11 +4477,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
@@ -4428,11 +4525,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
@@ -4464,11 +4561,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
@@ -4500,11 +4597,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
@@ -4548,11 +4645,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
@@ -4584,11 +4681,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
@@ -4620,11 +4717,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
@@ -6861,6 +6958,17 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite2",
+          "texture": "NewTiledSprite3",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -6891,6 +6999,9 @@
               },
               {
                 "objectName": "Bush1"
+              },
+              {
+                "objectName": "Building"
               }
             ]
           },
@@ -6916,9 +7027,6 @@
           },
           {
             "objectName": "DialogBox"
-          },
-          {
-            "objectName": "NewSprite"
           },
           {
             "objectName": "Player"
@@ -6949,6 +7057,9 @@
           },
           {
             "objectName": "FemaleCharacter7"
+          },
+          {
+            "objectName": "NewTiledSprite2"
           }
         ]
       },
@@ -6972,7 +7083,7 @@
               },
               "parameters": [
                 "",
-                "4",
+                "6",
                 "",
                 ""
               ]
@@ -7037,6 +7148,14 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "NewTiledSprite2"
               ]
             }
           ]
@@ -7461,6 +7580,35 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "NewTiledSprite2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Player",
+                "NewTiledSprite2",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -9385,7 +9533,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -9393,7 +9541,7 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
+        "snap": true,
         "zoomFactor": 0.546875,
         "windowMask": false
       },
@@ -9411,7 +9559,7 @@
           "persistentUuid": "ea820343-93dd-4131-8149-a92cb6c497a1",
           "width": 1281,
           "x": -1,
-          "y": 3,
+          "y": 0,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -9426,9 +9574,9 @@
           "layer": "",
           "name": "game_title",
           "persistentUuid": "dda3ae25-32c3-4aa7-829e-b980be386b22",
-          "width": 791,
-          "x": 242,
-          "y": 183,
+          "width": 759,
+          "x": 297,
+          "y": 192,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -9443,10 +9591,27 @@
           "layer": "",
           "name": "start_button",
           "persistentUuid": "ef472011-c125-45cf-bca4-aa0539e3ef7c",
-          "width": 168,
-          "x": 644,
-          "y": 397,
+          "width": 192,
+          "x": 512,
+          "y": 320,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "credits",
+          "persistentUuid": "a8d9e41d-6e2c-4991-a89b-2a1b2c03ae86",
+          "width": 192,
+          "x": 512,
+          "y": 384,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9529,26 +9694,31 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "content": {},
+          "content": {
+            "TopPadding": 8,
+            "BottomPadding": 8,
+            "LeftPadding": 8,
+            "RightPadding": 8
+          },
           "childrenContent": {
             "Hovered": {
-              "bottomMargin": 0,
+              "bottomMargin": 8,
               "height": 32,
-              "leftMargin": 0,
-              "rightMargin": 0,
+              "leftMargin": 8,
+              "rightMargin": 8,
               "texture": "Border2.png",
               "tiled": false,
-              "topMargin": 0,
+              "topMargin": 8,
               "width": 32
             },
             "Idle": {
-              "bottomMargin": 0,
+              "bottomMargin": 8,
               "height": 32,
-              "leftMargin": 0,
-              "rightMargin": 0,
+              "leftMargin": 8,
+              "rightMargin": 8,
               "texture": "Border.png",
               "tiled": false,
-              "topMargin": 0,
+              "topMargin": 8,
               "width": 32
             },
             "Label": {
@@ -9556,14 +9726,14 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "Text",
+              "string": "START",
               "font": "",
-              "textAlignment": "",
+              "textAlignment": "center",
               "characterSize": 20,
               "color": {
-                "b": 0,
-                "g": 0,
-                "r": 0
+                "b": 255,
+                "g": 255,
+                "r": 255
               },
               "content": {
                 "bold": false,
@@ -9579,22 +9749,104 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "Text",
+                "text": "START",
                 "font": "",
-                "textAlignment": "",
+                "textAlignment": "center",
                 "verticalTextAlignment": "top",
                 "characterSize": 20,
-                "color": "0;0;0"
+                "color": "255;255;255"
               }
             },
             "Pressed": {
-              "bottomMargin": 0,
+              "bottomMargin": 8,
               "height": 32,
-              "leftMargin": 0,
-              "rightMargin": 0,
+              "leftMargin": 8,
+              "rightMargin": 8,
               "texture": "Border2.png",
               "tiled": false,
-              "topMargin": 0,
+              "topMargin": 8,
+              "width": 32
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "credits",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "TopPadding": 8,
+            "BottomPadding": 8,
+            "LeftPadding": 8,
+            "RightPadding": 8
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 8,
+              "height": 32,
+              "leftMargin": 8,
+              "rightMargin": 8,
+              "texture": "Border2.png",
+              "tiled": false,
+              "topMargin": 8,
+              "width": 32
+            },
+            "Idle": {
+              "bottomMargin": 8,
+              "height": 32,
+              "leftMargin": 8,
+              "rightMargin": 8,
+              "texture": "Border.png",
+              "tiled": false,
+              "topMargin": 8,
+              "width": 32
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "CREDITS",
+              "font": "",
+              "textAlignment": "center",
+              "characterSize": 20,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "CREDITS",
+                "font": "",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 20,
+                "color": "255;255;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 8,
+              "height": 32,
+              "leftMargin": 8,
+              "rightMargin": 8,
+              "texture": "Border2.png",
+              "tiled": false,
+              "topMargin": 8,
               "width": 32
             }
           }
@@ -9614,10 +9866,95 @@
           },
           {
             "objectName": "start_button"
+          },
+          {
+            "objectName": "credits"
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+              },
+              "parameters": [
+                "start_button",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "HoverSound.wav",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Overworld\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+              },
+              "parameters": [
+                "credits",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "HoverSound.wav",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"credits\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
