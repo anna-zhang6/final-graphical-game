@@ -1299,6 +1299,38 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "png-clipart-computer-keyboard-arrow-keys-computer-icons-page-up-and-page-down-keys-arrow-text-rectangle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png-clipart-computer-keyboard-arrow-keys-computer-icons-page-up-and-page-down-keys-arrow-text-rectangle.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pngtree-four-keyboard-arrow-keys-on-white-closeup-white-macro-png-image_14956217.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pngtree-four-keyboard-arrow-keys-on-white-closeup-white-macro-png-image_14956217.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "spacebar-pagedown.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spacebar-pagedown.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1361,7 +1393,7 @@
       "title": "",
       "v": 146,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 8,
         "gridHeight": 8,
@@ -1369,8 +1401,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.2,
-        "snap": false,
-        "zoomFactor": 3.1923243862798607,
+        "snap": true,
+        "zoomFactor": 1.2613087341905516,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1974,8 +2006,8 @@
           "name": "NPC",
           "persistentUuid": "196cafb9-af98-435d-8107-4675c15d4990",
           "width": 12,
-          "x": 681,
-          "y": 208,
+          "x": 720,
+          "y": 322,
           "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
@@ -1989,8 +2021,8 @@
           "name": "E",
           "persistentUuid": "f3745d28-ecfe-4aa1-ad5d-c3d0ed30886e",
           "width": 16,
-          "x": 678,
-          "y": 185,
+          "x": 717,
+          "y": 299,
           "zOrder": 600,
           "numberProperties": [],
           "stringProperties": [],
@@ -3091,7 +3123,7 @@
           "persistentUuid": "e10f8149-7c50-4f5d-9210-7619efd9f571",
           "width": 16,
           "x": 712,
-          "y": 286,
+          "y": 336,
           "zOrder": 2008,
           "numberProperties": [],
           "stringProperties": [],
@@ -3450,6 +3482,156 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 8,
+          "keepRatio": true,
+          "layer": "big screen",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "334289b6-a404-478e-8764-e2e4331d3008",
+          "width": 208,
+          "x": 768,
+          "y": 312,
+          "zOrder": 2017,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 120,
+          "keepRatio": true,
+          "layer": "big screen",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "7d760860-7d7b-4ea2-913e-85035a99f680",
+          "width": 8,
+          "x": 768,
+          "y": 312,
+          "zOrder": 2018,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 8,
+          "keepRatio": true,
+          "layer": "big screen",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "6692367f-5572-4817-99fe-846dc765378f",
+          "width": 408,
+          "x": 360,
+          "y": 424,
+          "zOrder": 2017,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 120,
+          "keepRatio": true,
+          "layer": "big screen",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "cb7a4078-7be8-40dc-8b2f-5dcb6b984e83",
+          "width": 8,
+          "x": 768,
+          "y": 312,
+          "zOrder": 2018,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 288,
+          "keepRatio": true,
+          "layer": "big screen",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "e615ea10-bbe6-41b8-a9b7-c788d46a4c4b",
+          "width": 8,
+          "x": 976,
+          "y": 32,
+          "zOrder": 2018,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 400,
+          "keepRatio": true,
+          "layer": "big screen",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "993d4646-4846-4c00-a737-00d281e8574b",
+          "width": 8,
+          "x": 360,
+          "y": 32,
+          "zOrder": 2018,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 8,
+          "keepRatio": true,
+          "layer": "big screen",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "62183cf7-f802-4bd1-9758-71fa115713d1",
+          "width": 616,
+          "x": 360,
+          "y": 32,
+          "zOrder": 2017,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "E",
+          "persistentUuid": "7b1ce93a-46de-411f-8ab7-40b6954339c4",
+          "width": 0,
+          "x": 868,
+          "y": 237,
+          "zOrder": 2019,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 16,
+          "layer": "",
+          "name": "E",
+          "persistentUuid": "f96d90fb-1dda-4202-9c02-599f00669c07",
+          "width": 16,
+          "x": 819,
+          "y": 200,
+          "zOrder": 2020,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -3461,7 +3643,9 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "TextMessage": "Do you want to battle? I have the best creatures in town!"
+            "TextMessage": "Welcome to UCSC. I hope you have an amazing time! ",
+            "LabelButtonID0": "Continue",
+            "LabelButtonID1": "Exit"
           }
         },
         {
@@ -6889,6 +7073,28 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite2",
+          "texture": "NewTiledSprite2",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -6899,6 +7105,9 @@
             "children": [
               {
                 "objectName": "Tilemap_Ground"
+              },
+              {
+                "objectName": "NewSprite6"
               }
             ]
           },
@@ -6977,6 +7186,9 @@
           },
           {
             "objectName": "npc_4"
+          },
+          {
+            "objectName": "NewTiledSprite2"
           }
         ]
       },
@@ -7000,7 +7212,7 @@
               },
               "parameters": [
                 "",
-                "4",
+                "6",
                 "",
                 ""
               ]
@@ -7038,6 +7250,14 @@
               "parameters": [
                 "DialogBox"
               ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "NewTiledSprite2"
+              ]
             }
           ]
         },
@@ -7066,6 +7286,16 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Player",
+                "NewTiledSprite2",
+                ""
+              ]
             }
           ]
         },
@@ -7092,6 +7322,31 @@
                 "Player",
                 "=",
                 "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Space\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"big screen\""
               ]
             }
           ]
@@ -7155,6 +7410,224 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "DialogBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "E"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Player",
+                    "TopDownMovement",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Talk.wav",
+                    "",
+                    "50",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "DialogBox"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TwoChoicesDialogBoxes::TwoChoicesDialogBox::IsYesClicked"
+                      },
+                      "parameters": [
+                        "DialogBox",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "Transition",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+                      },
+                      "parameters": [
+                        "Transition",
+                        "FlashTransitionPainter",
+                        "\"0;0;0\"",
+                        "1",
+                        "\"Circular\"",
+                        "\"Forward\"",
+                        "255",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1.25"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PushScene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Battle\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TwoChoicesDialogBoxes::TwoChoicesDialogBox::IsNoClicked"
+                      },
+                      "parameters": [
+                        "DialogBox",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "DialogBox"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "E",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement",
+                        "yes"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"e\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::IsButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "\"A\"",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "npc_1",
+                    "20",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogBox",
+                    "Text",
+                    "=",
+                    "\"This is the Dining Hall\""
+                  ]
+                },
                 {
                   "type": {
                     "value": "Montre"
@@ -7581,6 +8054,39 @@
                 "quality": 3
               },
               "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "big screen",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
               "booleanParameters": {}
             }
           ]
