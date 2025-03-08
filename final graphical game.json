@@ -1361,7 +1361,7 @@
       "title": "",
       "v": 146,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 8,
         "gridHeight": 8,
@@ -1369,8 +1369,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.2,
-        "snap": true,
-        "zoomFactor": 1.141858345435439,
+        "snap": false,
+        "zoomFactor": 3.1923243862798607,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1967,14 +1967,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 13,
           "layer": "",
           "name": "NPC",
           "persistentUuid": "196cafb9-af98-435d-8107-4675c15d4990",
-          "width": 0,
-          "x": 680,
-          "y": 215,
+          "width": 12,
+          "x": 681,
+          "y": 208,
           "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
@@ -3083,14 +3084,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
           "name": "Player",
           "persistentUuid": "e10f8149-7c50-4f5d-9210-7619efd9f571",
-          "width": 24,
-          "x": 704,
-          "y": 264,
+          "width": 16,
+          "x": 712,
+          "y": 286,
           "zOrder": 2008,
           "numberProperties": [],
           "stringProperties": [],
@@ -3270,14 +3271,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
-          "name": "FemaleCharacter10",
+          "name": "npc_1",
           "persistentUuid": "8cefd963-0f3a-4802-bd79-01d249d0a6da",
-          "width": 24,
+          "width": 16,
           "x": 584,
-          "y": 240,
+          "y": 248,
           "zOrder": 2013,
           "numberProperties": [],
           "stringProperties": [],
@@ -3287,14 +3288,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
-          "name": "MaleCharacter3",
+          "name": "npc_2",
           "persistentUuid": "dfb411d3-88bd-405d-9427-15748d2cb3cd",
-          "width": 24,
-          "x": 560,
-          "y": 240,
+          "width": 16,
+          "x": 568,
+          "y": 248,
           "zOrder": 2014,
           "numberProperties": [],
           "stringProperties": [],
@@ -3304,14 +3305,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
-          "name": "MaleCharacter7",
+          "name": "npc_3",
           "persistentUuid": "e6499fd7-27a0-4411-88f1-ca6c133b3e7e",
           "width": 16,
           "x": 512,
-          "y": 296,
+          "y": 304,
           "zOrder": 2015,
           "numberProperties": [],
           "stringProperties": [],
@@ -3321,14 +3322,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
-          "name": "FemaleCharacter7",
+          "name": "npc_4",
           "persistentUuid": "54323218-1dad-4b4b-8437-6f580caa7109",
-          "width": 24,
-          "x": 528,
-          "y": 296,
+          "width": 16,
+          "x": 536,
+          "y": 304,
           "zOrder": 2016,
           "numberProperties": [],
           "stringProperties": [],
@@ -3338,30 +3339,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
-          "name": "MaleCharacter3",
-          "persistentUuid": "0a7f82fc-fea7-4e7d-9e78-4fdc9c689de0",
-          "width": 24,
-          "x": 824,
-          "y": 112,
-          "zOrder": 2014,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 24,
-          "keepRatio": true,
-          "layer": "",
-          "name": "MaleCharacter7",
+          "name": "npc_3",
           "persistentUuid": "af75b37c-6cc3-4527-890e-7adaaf4b1dd1",
           "width": 16,
-          "x": 848,
+          "x": 840,
           "y": 112,
           "zOrder": 2015,
           "numberProperties": [],
@@ -3372,14 +3356,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
-          "name": "FemaleCharacter7",
+          "name": "npc_4",
           "persistentUuid": "8f9b2bbe-75b8-4192-b007-c5d5eeb5de44",
-          "width": 24,
-          "x": 816,
-          "y": 208,
+          "width": 16,
+          "x": 814,
+          "y": 212,
           "zOrder": 2016,
           "numberProperties": [],
           "stringProperties": [],
@@ -3389,14 +3373,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
-          "name": "MaleCharacter3",
+          "name": "npc_2",
           "persistentUuid": "4d770f4a-5966-4f0e-84bb-4eebfb8d31d0",
-          "width": 24,
+          "width": 16,
           "x": 440,
-          "y": 160,
+          "y": 168,
           "zOrder": 2014,
           "numberProperties": [],
           "stringProperties": [],
@@ -3406,12 +3390,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
-          "name": "FemaleCharacter10",
+          "name": "npc_1",
           "persistentUuid": "f6e0c56e-4309-451f-98e2-8da17441a8cb",
-          "width": 24,
+          "width": 16,
           "x": 864,
           "y": 248,
           "zOrder": 2013,
@@ -3423,14 +3407,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
-          "name": "FemaleCharacter10",
+          "name": "npc_1",
           "persistentUuid": "63cf5d81-3e37-4f0b-bb1a-b4606b794c95",
-          "width": 24,
+          "width": 16,
           "x": 496,
-          "y": 160,
+          "y": 168,
           "zOrder": 2013,
           "numberProperties": [],
           "stringProperties": [],
@@ -4941,7 +4925,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "12a8e4905f464ec5584a3a87419bbc275e9397f8d083277cae97aa1130fa97e5",
-          "name": "FemaleCharacter10",
+          "name": "npc_1",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -5433,7 +5417,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "5b9ede9f70f633779805eb0d3a314e287ddd48c3660bb88e407f48c2ba255d5a",
-          "name": "MaleCharacter3",
+          "name": "npc_2",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -5925,7 +5909,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "5de83cd2c02c294d6a234d0e26a9c8588060b5c95d1b748f4cfcd550b31749cb",
-          "name": "MaleCharacter7",
+          "name": "npc_3",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -6417,7 +6401,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "bf980ffe31640aa147b370c797973fb3909f646d9c5e239af5fb1f4e3c878aa6",
-          "name": "FemaleCharacter7",
+          "name": "npc_4",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -6983,16 +6967,16 @@
             "objectName": "NewSprite5"
           },
           {
-            "objectName": "FemaleCharacter10"
+            "objectName": "npc_1"
           },
           {
-            "objectName": "MaleCharacter3"
+            "objectName": "npc_2"
           },
           {
-            "objectName": "MaleCharacter7"
+            "objectName": "npc_3"
           },
           {
-            "objectName": "FemaleCharacter7"
+            "objectName": "npc_4"
           }
         ]
       },
@@ -9511,6 +9495,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "credits",
+          "persistentUuid": "5374a720-4e54-4bd0-abd4-58ce4002663b",
+          "width": 168,
+          "x": 544,
+          "y": 507,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -9590,26 +9591,31 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "content": {},
+          "content": {
+            "TopPadding": 8,
+            "BottomPadding": 8,
+            "LeftPadding": 8,
+            "RightPadding": 8
+          },
           "childrenContent": {
             "Hovered": {
-              "bottomMargin": 0,
+              "bottomMargin": 8,
               "height": 32,
-              "leftMargin": 0,
-              "rightMargin": 0,
+              "leftMargin": 8,
+              "rightMargin": 8,
               "texture": "Border2.png",
               "tiled": false,
-              "topMargin": 0,
+              "topMargin": 8,
               "width": 32
             },
             "Idle": {
-              "bottomMargin": 0,
+              "bottomMargin": 8,
               "height": 32,
-              "leftMargin": 0,
-              "rightMargin": 0,
+              "leftMargin": 8,
+              "rightMargin": 8,
               "texture": "Border.png",
               "tiled": false,
-              "topMargin": 0,
+              "topMargin": 8,
               "width": 32
             },
             "Label": {
@@ -9649,13 +9655,13 @@
               }
             },
             "Pressed": {
-              "bottomMargin": 0,
+              "bottomMargin": 8,
               "height": 32,
-              "leftMargin": 0,
-              "rightMargin": 0,
+              "leftMargin": 8,
+              "rightMargin": 8,
               "texture": "Border2.png",
               "tiled": false,
-              "topMargin": 0,
+              "topMargin": 8,
               "width": 32
             }
           }
@@ -9701,6 +9707,88 @@
             "characterSize": 30,
             "color": "143;248;19"
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "credits",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "TopPadding": 8,
+            "BottomPadding": 8,
+            "LeftPadding": 8,
+            "RightPadding": 8
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 8,
+              "height": 32,
+              "leftMargin": 8,
+              "rightMargin": 8,
+              "texture": "Border2.png",
+              "tiled": false,
+              "topMargin": 8,
+              "width": 32
+            },
+            "Idle": {
+              "bottomMargin": 8,
+              "height": 32,
+              "leftMargin": 8,
+              "rightMargin": 8,
+              "texture": "Border.png",
+              "tiled": false,
+              "topMargin": 8,
+              "width": 32
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Credits",
+              "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
+              "textAlignment": "center",
+              "characterSize": 25,
+              "color": {
+                "b": 10,
+                "g": 16,
+                "r": 17
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "44;77;5",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Credits",
+                "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 25,
+                "color": "17;16;10"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 8,
+              "height": 32,
+              "leftMargin": 8,
+              "rightMargin": 8,
+              "texture": "Border2.png",
+              "tiled": false,
+              "topMargin": 8,
+              "width": 32
+            }
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -9719,11 +9807,123 @@
             "objectName": "start_button"
           },
           {
+            "objectName": "credits"
+          },
+          {
             "objectName": "Instructions"
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsHovered"
+              },
+              "parameters": [
+                "start_button",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "HoverSound.wav",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+              },
+              "parameters": [
+                "start_button",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Overworld\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsHovered"
+              },
+              "parameters": [
+                "credits",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "HoverSound.wav",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+              },
+              "parameters": [
+                "credits",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"credits\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
