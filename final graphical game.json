@@ -1350,7 +1350,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 1.454051681951102,
+        "zoomFactor": 1.5856546028626006,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1490,21 +1490,6 @@
           "width": 0,
           "x": 912,
           "y": 299,
-          "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree1",
-          "persistentUuid": "cf41b047-35d9-47ee-a51a-7124aca7963b",
-          "width": 0,
-          "x": 507,
-          "y": 350,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -2000,7 +1985,7 @@
           "persistentUuid": "e6e9a3f5-84bd-450b-b6b2-a52fa872e4bd",
           "width": 0,
           "x": 616,
-          "y": 270,
+          "y": 259,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -2029,7 +2014,7 @@
           "name": "Tree1",
           "persistentUuid": "73e6c36d-2f81-41c4-b21c-aa9c9455d192",
           "width": 0,
-          "x": 577,
+          "x": 568,
           "y": 350,
           "zOrder": 22,
           "numberProperties": [],
@@ -2044,7 +2029,7 @@
           "name": "Tree1",
           "persistentUuid": "ef6ea253-f38d-4c4e-9ae5-09c93459771b",
           "width": 0,
-          "x": 542,
+          "x": 520,
           "y": 350,
           "zOrder": 22,
           "numberProperties": [],
@@ -2988,7 +2973,7 @@
           "persistentUuid": "b1d8bfee-883f-4b13-9aef-fd38949ac5d7",
           "width": 0,
           "x": 480,
-          "y": 343,
+          "y": 351,
           "zOrder": 2007,
           "numberProperties": [],
           "stringProperties": [],
@@ -3071,7 +3056,7 @@
           "persistentUuid": "e10f8149-7c50-4f5d-9210-7619efd9f571",
           "width": 16,
           "x": 712,
-          "y": 272,
+          "y": 336,
           "zOrder": 2017,
           "numberProperties": [],
           "stringProperties": [],
@@ -3429,21 +3414,6 @@
           "x": 376,
           "y": 407,
           "zOrder": 2004,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree2",
-          "persistentUuid": "07bbe94b-0ff9-48ed-81e1-175de83dcdbd",
-          "width": 0,
-          "x": 656,
-          "y": 351,
-          "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4188,7 +4158,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "9af6773a55ddc01430409f858506afe9e08b86f62eacc5dd574ac399bdb14b16",
           "name": "Player",
           "type": "Sprite",
@@ -4315,11 +4285,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
@@ -4351,11 +4321,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
@@ -4387,11 +4357,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
@@ -4435,11 +4405,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
@@ -4471,11 +4441,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
@@ -4507,11 +4477,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
@@ -4555,11 +4525,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
@@ -4591,11 +4561,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
@@ -4627,11 +4597,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
@@ -4675,11 +4645,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
@@ -4711,11 +4681,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
@@ -4747,11 +4717,11 @@
                         [
                           {
                             "x": 1,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
-                            "y": 2
+                            "y": 7.5
                           },
                           {
                             "x": 15,
