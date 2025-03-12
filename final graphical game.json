@@ -1402,7 +1402,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 1.2613087341905516,
+        "zoomFactor": 1.7573245611364268,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2565,7 +2565,7 @@
           "persistentUuid": "f538980e-284f-4af9-904a-87403c032ab7",
           "width": 0,
           "x": 368,
-          "y": 40,
+          "y": 39,
           "zOrder": -2000,
           "numberProperties": [],
           "stringProperties": [
@@ -8476,7 +8476,7 @@
             }
           ],
           "content": {
-            "text": "Hi...",
+            "text": "When was the school founded?",
             "opacity": 255,
             "scale": 3,
             "fontSize": 20,
@@ -8540,7 +8540,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "hi",
+              "string": "a. 1961",
               "font": "",
               "textAlignment": "left",
               "characterSize": 26,
@@ -8563,7 +8563,7 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "hi",
+                "text": "a. 1961",
                 "font": "",
                 "textAlignment": "left",
                 "verticalTextAlignment": "top",
@@ -8625,7 +8625,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "Skill",
+              "string": "b. 1973",
               "font": "",
               "textAlignment": "left",
               "characterSize": 26,
@@ -8648,7 +8648,7 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "Skill",
+                "text": "b. 1973",
                 "font": "",
                 "textAlignment": "left",
                 "verticalTextAlignment": "top",
@@ -8710,7 +8710,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "Run",
+              "string": "c. 1965",
               "font": "",
               "textAlignment": "left",
               "characterSize": 26,
@@ -8733,7 +8733,7 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "Run",
+                "text": "c. 1965",
                 "font": "",
                 "textAlignment": "left",
                 "verticalTextAlignment": "top",
@@ -9164,12 +9164,40 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "SetStringVariable"
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                       },
                       "parameters": [
-                        "State",
+                        "Dialogue",
+                        "Text",
                         "=",
-                        "\"PlayPlayerAttack\""
+                        "\"Incorrect! Try Again.\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                      },
+                      "parameters": [
+                        "Attack2",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Dialogue",
+                        "Text",
+                        "=",
+                        "\"Incorrect! Try Again.\""
                       ]
                     }
                   ]
@@ -9190,161 +9218,13 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "PopScene"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "State",
-                    "=",
-                    "\"PlayPlayerAttack\""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Tween",
-                        "\"BackUp\"",
-                        "Player.X() - 67",
-                        "Player.Y()",
-                        "\"easeOutQuad\"",
-                        "0.5",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "0.5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Tween",
-                        "\"BackUp\"",
-                        "Player.X() + 67",
-                        "Player.Y()",
-                        "\"easeInQuad\"",
-                        "0.1",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "0.1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "Attack.wav",
-                        "",
-                        "90",
-                        "RandomFloatInRange(0.9,1)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ShakeObject::ShakeObject_PositionAngle::StopShaking"
-                      },
-                      "parameters": [
-                        "Enemy",
-                        "ShakeObject_PositionAngle",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
-                      },
-                      "parameters": [
-                        "Enemy",
-                        "ShakeObject_PositionAngleScale",
-                        "0.6",
-                        "7",
-                        "7",
-                        "5",
-                        "10",
-                        "0.2",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Flash::Flash::Flash"
-                      },
-                      "parameters": [
-                        "Enemy",
-                        "Flash",
-                        "0.3",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Health::Health::Hit"
-                      },
-                      "parameters": [
-                        "Enemy",
-                        "Health",
-                        "10",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                       },
                       "parameters": [
                         "Dialogue",
                         "Text",
                         "=",
-                        "\"You attacked your enemy.\""
+                        "\"Correct!\""
                       ]
                     },
                     {
@@ -9352,139 +9232,30 @@
                         "value": "Wait"
                       },
                       "parameters": [
-                        "1"
+                        "1.5"
                       ]
                     },
                     {
                       "type": {
-                        "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+                        "value": "Montre"
                       },
                       "parameters": [
-                        "Enemy",
-                        "ShakeObject_PositionAngle",
-                        "0.5",
-                        "-2.5",
-                        "-2.5",
-                        "0",
-                        "2",
-                        "yes",
-                        "yes"
+                        "Transition",
+                        ""
                       ]
                     },
                     {
                       "type": {
-                        "value": "SetStringVariable"
+                        "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
                       },
                       "parameters": [
-                        "State",
-                        "=",
-                        "\"WaitEnemyChoice\""
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Their turn",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "State",
-                    "=",
-                    "\"WaitEnemyChoice\""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "0.5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetStringVariable"
-                      },
-                      "parameters": [
-                        "State",
-                        "=",
-                        "\"PlayEnemyAttack\""
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "State",
-                    "=",
-                    "\"PlayEnemyAttack\""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-                      },
-                      "parameters": [
-                        "Enemy",
-                        "Tween",
-                        "\"BackUp\"",
-                        "Enemy.X() + 67",
-                        "Enemy.Y()",
-                        "\"easeOutQuad\"",
-                        "0.5",
+                        "Transition",
+                        "FlashTransitionPainter",
+                        "\"0;0;0\"",
+                        "1",
+                        "\"Circular\"",
+                        "\"Forward\"",
+                        "255",
                         ""
                       ]
                     },
@@ -9493,128 +9264,16 @@
                         "value": "Wait"
                       },
                       "parameters": [
-                        "0.5"
+                        "1.5"
                       ]
                     },
                     {
                       "type": {
-                        "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-                      },
-                      "parameters": [
-                        "Enemy",
-                        "Tween",
-                        "\"BackUp\"",
-                        "Enemy.X() - 67",
-                        "Enemy.Y()",
-                        "\"easeInQuad\"",
-                        "0.1",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "0.1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySound"
+                        "value": "PushScene"
                       },
                       "parameters": [
                         "",
-                        "Attack.wav",
-                        "",
-                        "90",
-                        "RandomFloatInRange(0.9,1)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
-                      },
-                      "parameters": [
-                        "Player",
-                        "ShakeObject_PositionAngleScale",
-                        "0.6",
-                        "7",
-                        "7",
-                        "5",
-                        "10",
-                        "0.2",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Flash::Flash::Flash"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Flash",
-                        "0.3",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Health::Health::Hit"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Health",
-                        "10",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "Dialogue",
-                        "Text",
-                        "=",
-                        "\"Your enemy attacked you.\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
-                      },
-                      "parameters": [
-                        "Player",
-                        "ShakeObject_PositionAngle",
-                        "0.5",
-                        "3.5",
-                        "3.5",
-                        "0",
-                        "2",
-                        "yes",
-                        "yes"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetStringVariable"
-                      },
-                      "parameters": [
-                        "State",
-                        "=",
-                        "\"WaitPlayerChoice\""
+                        "\"Overworld\""
                       ]
                     }
                   ]
@@ -9640,28 +9299,15 @@
                   "type": {
                     "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "Health::Health::IsDead"
-                      },
-                      "parameters": [
-                        "Enemy",
-                        "Health",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Health::Health::IsDead"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Health",
-                        ""
-                      ]
-                    }
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsActivated"
+                  },
+                  "parameters": [
+                    "Run",
+                    ""
                   ]
                 }
               ],
@@ -9830,7 +9476,19 @@
       "stopSoundsOnStartup": true,
       "title": "",
       "v": 209,
-      "uiSettings": {},
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false
+      },
       "objectsGroups": [],
       "variables": [],
       "instances": [],
