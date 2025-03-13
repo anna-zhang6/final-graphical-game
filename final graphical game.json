@@ -1,7 +1,7 @@
 {
   "firstLayout": "title page",
   "gdVersion": {
-    "build": 224,
+    "build": 226,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -3463,7 +3463,7 @@
           "name": "Instructions",
           "persistentUuid": "06fe3395-4f94-4512-8925-76a670fe034c",
           "width": 1233,
-          "x": 28,
+          "x": 26,
           "y": 324,
           "zOrder": 4,
           "numberProperties": [],
@@ -3651,7 +3651,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Instructions: Click on the NPCs and answer their questions to learn about the UCSC campus!",
+          "string": "Instructions: Press E and answer the NPCs questions to learn about the UCSC campus!",
           "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
           "textAlignment": "center",
           "characterSize": 30,
@@ -3674,7 +3674,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Instructions: Click on the NPCs and answer their questions to learn about the UCSC campus!",
+            "text": "Instructions: Press E and answer the NPCs questions to learn about the UCSC campus!",
             "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
@@ -14638,6 +14638,56 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 98,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "966b16b7-1894-4140-be33-bf2df7f5078f",
+          "width": 320,
+          "x": 495,
+          "y": 49,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText2",
+          "persistentUuid": "78a23d05-2dd1-4f34-949c-a564293c675a",
+          "width": 0,
+          "x": 96,
+          "y": 130,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 168,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Image_credits_",
+          "persistentUuid": "94c69135-3e0d-491b-9dc5-69c9ea1abdf1",
+          "width": 1016,
+          "x": 103,
+          "y": 190,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -14651,6 +14701,132 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Credits",
+          "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+          "textAlignment": "left",
+          "characterSize": 65,
+          "color": {
+            "b": 24,
+            "g": 237,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Credits",
+            "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 65,
+            "color": "255;237;24"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Game made by Nitya Ravi, Jaiden Abulencia, & Anna Zhang",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "left",
+          "characterSize": 65,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Game made by Nitya Ravi, Jaiden Abulencia, & Anna Zhang",
+            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 65,
+            "color": "248;231;28"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Image_credits_",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Image credits:  \nUC Santa Cruz logo: University of California, Santa Cruz. ForestGEO. (2019, September 26). https://forestgeo.si.edu/university-california-santa-cruz-0  \nUC Santa Cruz second logo: UC Santa Cruz Banana Slugs logo (UCSC: 01). PNG Logo Vector Brand Downloads (SVG, EPS). (2023, June 8). https://www.freelogovectors.net/uc-santa-cruz-banana-slugs-logo/ \nBaskin's engineering logo: Home. Baskin Engineering Toolkit. (n.d.). https://toolkit.engineering.ucsc.edu/baskin-engineering-brand/ \nUCSC Dining Hall logo: UCSC Dining Services. GET. (n.d.). https://get.cbord.com/ucsc/full/about.php \nCartoon building: \n",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Image credits:  \nUC Santa Cruz logo: University of California, Santa Cruz. ForestGEO. (2019, September 26). https://forestgeo.si.edu/university-california-santa-cruz-0  \nUC Santa Cruz second logo: UC Santa Cruz Banana Slugs logo (UCSC: 01). PNG Logo Vector Brand Downloads (SVG, EPS). (2023, June 8). https://www.freelogovectors.net/uc-santa-cruz-banana-slugs-logo/ \nBaskin's engineering logo: Home. Baskin Engineering Toolkit. (n.d.). https://toolkit.engineering.ucsc.edu/baskin-engineering-brand/ \nUCSC Dining Hall logo: UCSC Dining Services. GET. (n.d.). https://get.cbord.com/ucsc/full/about.php \nCartoon building: \n",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "248;231;28"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -14658,6 +14834,15 @@
         "children": [
           {
             "objectName": "NewTiledSprite"
+          },
+          {
+            "objectName": "NewText"
+          },
+          {
+            "objectName": "NewText2"
+          },
+          {
+            "objectName": "Image_credits_"
           }
         ]
       },
@@ -14736,6 +14921,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
@@ -14747,6 +14936,7 @@
       "category": "Movement",
       "extensionNamespace": "",
       "fullName": "Top-down movement animator",
+      "gdevelopVersion": "",
       "helpPath": "",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8cGF0aCBkPSJNNiwyMS4xYy0wLjMsMC0wLjUtMC4xLTAuNy0wLjNsLTQtNC4xYy0wLjQtMC40LTAuNC0xLDAtMS40bDQtNC4xYzAuNC0wLjQsMS0wLjQsMS40LDBzMC40LDEsMCwxLjRMMy40LDE2bDMuMywzLjMNCgkJYzAuNCwwLjQsMC40LDEsMCwxLjRDNi42LDIxLDYuMywyMS4xLDYsMjEuMXoiLz4NCjwvZz4NCjxnPg0KCTxwYXRoIGQ9Ik0yNiwyMS4xYy0wLjMsMC0wLjUtMC4xLTAuNy0wLjNjLTAuNC0wLjQtMC40LTEsMC0xLjRsMy4zLTMuM2wtMy4zLTMuM2MtMC40LTAuNC0wLjQtMSwwLTEuNHMxLTAuNCwxLjQsMGw0LjEsNC4xDQoJCWMwLjIsMC4yLDAuMywwLjQsMC4zLDAuN3MtMC4xLDAuNS0wLjMsMC43bC00LjEsNC4xQzI2LjYsMjEsMjYuMywyMS4xLDI2LDIxLjF6Ii8+DQo8L2c+DQo8Zz4NCgk8cGF0aCBkPSJNMTYsMzEuMUwxNiwzMS4xYy0wLjMsMC0wLjUtMC4xLTAuNy0wLjNsLTQtNC4xYy0wLjQtMC40LTAuNC0xLDAtMS40czEtMC40LDEuNCwwbDMuMywzLjNsMy4zLTMuM2MwLjQtMC40LDEtMC40LDEuNCwwDQoJCXMwLjQsMSwwLDEuNGwtNC4xLDQuMUMxNi42LDMwLjksMTYuMywzMS4xLDE2LDMxLjF6Ii8+DQo8L2c+DQo8Zz4NCgk8cGF0aCBkPSJNMjAuMSw3Yy0wLjMsMC0wLjUtMC4xLTAuNy0wLjNMMTYsMy40bC0zLjMsMy4zYy0wLjQsMC40LTEsMC40LTEuNCwwcy0wLjQtMSwwLTEuNGw0LTQuMWMwLjQtMC40LDEtMC40LDEuNCwwbDQuMSw0LjENCgkJYzAuNCwwLjQsMC40LDEsMCwxLjRDMjAuNiw2LjksMjAuNCw3LDIwLjEsN3oiLz4NCjwvZz4NCjxnPg0KCTxwYXRoIGQ9Ik0xNiwzMGMtMC42LDAtMS0wLjQtMS0xVjNjMC0wLjYsMC40LTEsMS0xczEsMC40LDEsMXYyNkMxNywyOS42LDE2LjYsMzAsMTYsMzB6Ii8+DQo8L2c+DQo8Zz4NCgk8cGF0aCBkPSJNMjksMTdIMmMtMC42LDAtMS0wLjQtMS0xczAuNC0xLDEtMWgyN2MwLjYsMCwxLDAuNCwxLDFTMjkuNiwxNywyOSwxN3oiLz4NCjwvZz4NCjwvc3ZnPg0K",
       "name": "TopDownMovementAnimator",
@@ -15669,6 +15859,7 @@
       "category": "Input",
       "extensionNamespace": "",
       "fullName": "Two choices dialog boxes",
+      "gdevelopVersion": "",
       "helpPath": "",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPGxpbmUgY2xhc3M9InN0MCIgeDE9IjMiIHkxPSIxMSIgeDI9IjI5IiB5Mj0iMTEiLz4NCjxnPg0KCTxwYXRoIGQ9Ik03LDlDNi43LDksNi41LDguOSw2LjMsOC43QzYuMSw4LjUsNiw4LjMsNiw4YzAtMC4zLDAuMS0wLjUsMC4zLTAuN2MwLDAsMC4xLTAuMSwwLjEtMC4xYzAuMSwwLDAuMS0wLjEsMC4yLTAuMQ0KCQlDNi43LDcsNi43LDcsNi44LDdjMC4xLDAsMC4zLDAsMC40LDBjMC4xLDAsMC4xLDAsMC4yLDAuMWMwLjEsMCwwLjEsMC4xLDAuMiwwLjFjMCwwLDAuMSwwLjEsMC4xLDAuMWMwLjEsMC4xLDAuMiwwLjIsMC4yLDAuMw0KCQlDOCw3LjcsOCw3LjksOCw4YzAsMC4xLDAsMC4zLTAuMSwwLjRDNy45LDguNSw3LjgsOC42LDcuNyw4LjdDNy41LDguOSw3LjMsOSw3LDl6Ii8+DQo8L2c+DQo8Zz4NCgk8cGF0aCBkPSJNMTAsOUM5LjcsOSw5LjUsOC45LDkuMyw4LjdDOS4xLDguNSw5LDguMyw5LDhjMC0wLjEsMC0wLjMsMC4xLTAuNGMwLjEtMC4xLDAuMS0wLjIsMC4yLTAuM2MwLjEtMC4xLDAuMi0wLjIsMC4zLTAuMg0KCQlDMTAsNi45LDEwLjQsNywxMC43LDcuM2MwLjEsMC4xLDAuMiwwLjIsMC4yLDAuM0MxMSw3LjcsMTEsNy45LDExLDhjMCwwLjMtMC4xLDAuNS0wLjMsMC43QzEwLjUsOC45LDEwLjMsOSwxMCw5eiIvPg0KPC9nPg0KPGc+DQoJPHBhdGggZD0iTTEzLDljLTAuMSwwLTAuMywwLTAuNC0wLjFjLTAuMS0wLjEtMC4yLTAuMS0wLjMtMC4yYy0wLjEtMC4xLTAuMi0wLjItMC4yLTAuM0MxMiw4LjMsMTIsOC4xLDEyLDhjMC0wLjEsMC0wLjMsMC4xLTAuNA0KCQljMC4xLTAuMSwwLjEtMC4yLDAuMi0wLjNjMC40LTAuNCwxLTAuNCwxLjQsMGMwLjEsMC4xLDAuMiwwLjIsMC4yLDAuM0MxNCw3LjcsMTQsNy45LDE0LDhjMCwwLjEsMCwwLjMtMC4xLDAuNA0KCQljLTAuMSwwLjEtMC4xLDAuMi0wLjIsMC4zQzEzLjUsOC45LDEzLjMsOSwxMyw5eiIvPg0KPC9nPg0KPHBhdGggY2xhc3M9InN0MCIgZD0iTTI3LDVINUMzLjksNSwzLDUuOSwzLDd2MThjMCwxLjEsMC45LDIsMiwyaDIyYzEuMSwwLDItMC45LDItMlY3QzI5LDUuOSwyOC4xLDUsMjcsNXoiLz4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yMywyM0g5Yy0xLjEsMC0yLTAuOS0yLTJ2LTRjMC0xLjEsMC45LTIsMi0yaDE0YzEuMSwwLDIsMC45LDIsMnY0QzI1LDIyLjEsMjQuMSwyMywyMywyM3oiLz4NCjxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjE1LDE5IDE2LDIwIDE4LDE4ICIvPg0KPC9zdmc+DQo=",
       "name": "TwoChoicesDialogBoxes",
@@ -17125,6 +17316,7 @@
       "category": "Input",
       "extensionNamespace": "",
       "fullName": "Multitouch joystick and buttons (sprite)",
+      "gdevelopVersion": "",
       "helpPath": "/objects/multitouch-joystick",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPGNpcmNsZSBjbGFzcz0ic3QwIiBjeD0iMTYiIGN5PSIxNiIgcj0iMTMiLz4NCjxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjI4LjQsMTIgMjAsMTIgMjAsMy42ICIvPg0KPHBvbHlsaW5lIGNsYXNzPSJzdDAiIHBvaW50cz0iMjAsMjguNCAyMCwyMCAyOC40LDIwICIvPg0KPHBvbHlsaW5lIGNsYXNzPSJzdDAiIHBvaW50cz0iMy42LDIwIDEyLDIwIDEyLDI4LjQgIi8+DQo8cG9seWxpbmUgY2xhc3M9InN0MCIgcG9pbnRzPSIxMiwzLjYgMTIsMTIgMy42LDEyICIvPg0KPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSIxNiw2IDE2LjcsNyAxNS4zLDcgIi8+DQo8cG9seWdvbiBjbGFzcz0ic3QwIiBwb2ludHM9IjE2LDI2IDE1LjMsMjUgMTYuNywyNSAiLz4NCjxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iNiwxNiA3LDE1LjMgNywxNi43ICIvPg0KPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSIyNiwxNiAyNSwxNi43IDI1LDE1LjMgIi8+DQo8L3N2Zz4NCg==",
       "name": "SpriteMultitouchJoystick",
@@ -24110,6 +24302,7 @@
       "category": "User interface",
       "extensionNamespace": "",
       "fullName": "Resource bar (continuous)",
+      "gdevelopVersion": "",
       "helpPath": "/objects/resource-bar",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBkPSJNMjgsMTJIMTRINGMtMi4yLDAtNCwxLjgtNCw0czEuOCw0LDQsNGgxMGgxNGMyLjIsMCw0LTEuOCw0LTRTMzAuMiwxMiwyOCwxMnogTTQsMThjLTEuMSwwLTItMC45LTItMnMwLjktMiwyLTJoMTANCgljMS4xLDAsMiwwLjksMiwycy0wLjksMi0yLDJINHoiLz4NCjwvc3ZnPg0K",
       "name": "PanelSpriteContinuousBar",
@@ -26699,6 +26892,7 @@
       "category": "Visual effect",
       "extensionNamespace": "",
       "fullName": "Flash object",
+      "gdevelopVersion": "",
       "helpPath": "",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWZsYXNoLW91dGxpbmUiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNNywySDE3TDEzLjUsOUgxN0wxMCwyMlYxNEg3VjJNOSw0VjEySDEyVjE0LjY2TDE0LDExSDEwLjI0TDEzLjc2LDRIOVoiIC8+PC9zdmc+",
       "name": "Flash",
@@ -29739,6 +29933,7 @@
       "category": "Game mechanic",
       "extensionNamespace": "",
       "fullName": "Health points and damage",
+      "gdevelopVersion": "",
       "helpPath": "",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWhlYXJ0LWhhbGYtZnVsbCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xNi41LDVDMTUsNSAxMy41OCw1LjkxIDEzLDcuMlYxNy43NEMxNy4yNSwxMy44NyAyMCwxMS4yIDIwLDguNUMyMCw2LjUgMTguNSw1IDE2LjUsNU0xNi41LDNDMTkuNTgsMyAyMiw1LjQxIDIyLDguNUMyMiwxMi4yNyAxOC42LDE1LjM2IDEzLjQ1LDIwLjAzTDEyLDIxLjM1TDEwLjU1LDIwLjAzQzUuNCwxNS4zNiAyLDEyLjI3IDIsOC41QzIsNS40MSA0LjQyLDMgNy41LDNDOS4yNCwzIDEwLjkxLDMuODEgMTIsNS4wOEMxMy4wOSwzLjgxIDE0Ljc2LDMgMTYuNSwzWiIgLz48L3N2Zz4=",
       "name": "Health",
@@ -34601,6 +34796,7 @@
       "category": "Visual effect",
       "extensionNamespace": "",
       "fullName": "Flash and transition painter",
+      "gdevelopVersion": "",
       "helpPath": "",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLW1vdmllLWZpbHRlciIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xOCA0TDIwIDdIMTdMMTUgNEgxM0wxNSA3SDEyTDEwIDRIOEwxMCA3SDdMNSA0SDRDMi45IDQgMiA0LjkgMiA2TDIgMThDMiAxOS4xIDIuOSAyMCA0IDIwSDIwQzIxLjEgMjAgMjIgMTkuMSAyMiAxOFY0SDE4TTExLjI1IDE1LjI1TDEwIDE4TDguNzUgMTUuMjVMNiAxNEw4Ljc1IDEyLjc1TDEwIDEwTDExLjI1IDEyLjc1TDE0IDE0TDExLjI1IDE1LjI1TTE2Ljk0IDExLjk0TDE2IDE0TDE1LjA2IDExLjk0TDEzIDExTDE1LjA2IDEwLjA2TDE2IDhMMTYuOTQgMTAuMDZMMTkgMTFMMTYuOTQgMTEuOTRaIiAvPjwvc3ZnPg==",
       "name": "FlashTransitionPainter",
@@ -35468,6 +35664,7 @@
       "category": "User interface",
       "extensionNamespace": "",
       "fullName": "Panel sprite button",
+      "gdevelopVersion": "",
       "helpPath": "/objects/button",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPHBhdGggY2xhc3M9InN0MCIgZD0iTTI5LDIzSDNjLTEuMSwwLTItMC45LTItMlYxMWMwLTEuMSwwLjktMiwyLTJoMjZjMS4xLDAsMiwwLjksMiwydjEwQzMxLDIyLjEsMzAuMSwyMywyOSwyM3oiLz4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xMywxOUwxMywxOWMtMS4xLDAtMi0wLjktMi0ydi0yYzAtMS4xLDAuOS0yLDItMmgwYzEuMSwwLDIsMC45LDIsMnYyQzE1LDE4LjEsMTQuMSwxOSwxMywxOXoiLz4NCjxsaW5lIGNsYXNzPSJzdDAiIHgxPSIxOCIgeTE9IjEzIiB4Mj0iMTgiIHkyPSIxOSIvPg0KPGxpbmUgY2xhc3M9InN0MCIgeDE9IjIxIiB5MT0iMTMiIHgyPSIxOCIgeTI9IjE3Ii8+DQo8bGluZSBjbGFzcz0ic3QwIiB4MT0iMjEiIHkxPSIxOSIgeDI9IjE5IiB5Mj0iMTYiLz4NCjwvc3ZnPg0K",
       "name": "PanelSpriteButton",
@@ -38199,6 +38396,7 @@
       "category": "Visual effect",
       "extensionNamespace": "",
       "fullName": "Shake object",
+      "gdevelopVersion": "",
       "helpPath": "",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWFycm93LWFsbCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xMywxMUgxOEwxNi41LDkuNUwxNy45Miw4LjA4TDIxLjg0LDEyTDE3LjkyLDE1LjkyTDE2LjUsMTQuNUwxOCwxM0gxM1YxOEwxNC41LDE2LjVMMTUuOTIsMTcuOTJMMTIsMjEuODRMOC4wOCwxNy45Mkw5LjUsMTYuNUwxMSwxOFYxM0g2TDcuNSwxNC41TDYuMDgsMTUuOTJMMi4xNiwxMkw2LjA4LDguMDhMNy41LDkuNUw2LDExSDExVjZMOS41LDcuNUw4LjA4LDYuMDhMMTIsMi4xNkwxNS45Miw2LjA4TDE0LjUsNy41TDEzLDZWMTFaIiAvPjwvc3ZnPg==",
       "name": "ShakeObject",
@@ -42628,6 +42826,7 @@
       "category": "Camera",
       "extensionNamespace": "",
       "fullName": "Smooth Camera",
+      "gdevelopVersion": "",
       "helpPath": "/tutorials/follow-player-with-camera/",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQoJLnN0MXtmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30NCjwvc3R5bGU+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjQsMTNoLTZjLTEuMSwwLTItMC45LTItMlY1YzAtMS4xLDAuOS0yLDItMmg2YzEuMSwwLDIsMC45LDIsMnY2QzI2LDEyLjEsMjUuMSwxMywyNCwxM3oiLz4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yNiw4djEwYzAsMS4xLTAuOSwyLTIsMkg4Yy0xLjEsMC0yLTAuOS0yLTJWOGMwLTEuMSwwLjktMiwyLTJoOCIvPg0KPGNpcmNsZSBjbGFzcz0ic3QwIiBjeD0iMjEiIGN5PSI4IiByPSIyIi8+DQo8Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSIxMSIgY3k9IjE2IiByPSIxIi8+DQo8cmVjdCB4PSI5IiB5PSI5IiBjbGFzcz0ic3QwIiB3aWR0aD0iNCIgaGVpZ2h0PSIzIi8+DQo8cG9seWxpbmUgY2xhc3M9InN0MCIgcG9pbnRzPSIyMSwyOSAyMSwyOSAxMSwyOSAxMSwyOSAiLz4NCjxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjE4LDIwIDE4LDI5IDE0LDI5IDE0LDIwICIvPg0KPHJlY3QgeD0iNyIgeT0iMyIgY2xhc3M9InN0MCIgd2lkdGg9IjQiIGhlaWdodD0iMyIvPg0KPC9zdmc+DQo=",
       "name": "SmoothCamera",
@@ -47945,6 +48144,7 @@
       "category": "User interface",
       "extensionNamespace": "",
       "fullName": "Auto typing animation for text (\"typewriter\" effect)",
+      "gdevelopVersion": "",
       "helpPath": "",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXR5cGV3cml0ZXIiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjAgMTNIMTZDMTYgMTQuMSAxNS4xIDE1IDE0IDE1SDEwQzguOSAxNSA4IDE0LjEgOCAxM0g0TDIgMThWMjBDMiAyMS4xIDIuOSAyMiA0IDIySDIwQzIxLjEgMjIgMjIgMjEuMSAyMiAyMFYxOE02IDIwQzUuMTEgMjAgNC42NiAxOC45MiA1LjI5IDE4LjI5QzUuOTIgMTcuNjYgNyAxOC4xMSA3IDE5QzcgMTkuNTUgNi41NSAyMCA2IDIwTTEwIDIwQzkuMTEgMjAgOC42NiAxOC45MiA5LjI5IDE4LjI5QzkuOTIgMTcuNjYgMTEgMTguMTEgMTEgMTlDMTEgMTkuNTUgMTAuNTUgMjAgMTAgMjBNMTQgMjBDMTMuMTEgMjAgMTIuNjYgMTguOTIgMTMuMjkgMTguMjlDMTMuOTIgMTcuNjYgMTUgMTguMTEgMTUgMTlDMTUgMTkuNTUgMTQuNTUgMjAgMTQgMjBNMTggMjBDMTcuMTEgMjAgMTYuNjYgMTguOTIgMTcuMjkgMTguMjlDMTcuOTIgMTcuNjYgMTkgMTguMTEgMTkgMTlDMTkgMTkuNTUgMTguNTUgMjAgMTggMjBNMTggMTBWM0g2VjEwSDNWMTJIMjFWMTBNOCA1SDE2VjZIOE04IDdIMTRWOEg4IiAvPjwvc3ZnPg==",
       "name": "AutoTyping",
@@ -48973,6 +49173,7 @@
       "category": "Input",
       "extensionNamespace": "",
       "fullName": "Gamepads (controllers)",
+      "gdevelopVersion": "",
       "helpPath": "/all-features/gamepad",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWdhbWVwYWQtdmFyaWFudC1vdXRsaW5lIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTYsOUg4VjExSDEwVjEzSDhWMTVINlYxM0g0VjExSDZWOU0xOC41LDlBMS41LDEuNSAwIDAsMSAyMCwxMC41QTEuNSwxLjUgMCAwLDEgMTguNSwxMkExLjUsMS41IDAgMCwxIDE3LDEwLjVBMS41LDEuNSAwIDAsMSAxOC41LDlNMTUuNSwxMkExLjUsMS41IDAgMCwxIDE3LDEzLjVBMS41LDEuNSAwIDAsMSAxNS41LDE1QTEuNSwxLjUgMCAwLDEgMTQsMTMuNUExLjUsMS41IDAgMCwxIDE1LjUsMTJNMTcsNUE3LDcgMCAwLDEgMjQsMTJBNyw3IDAgMCwxIDE3LDE5QzE1LjA0LDE5IDEzLjI3LDE4LjIgMTIsMTYuOUMxMC43MywxOC4yIDguOTYsMTkgNywxOUE3LDcgMCAwLDEgMCwxMkE3LDcgMCAwLDEgNyw1SDE3TTcsN0E1LDUgMCAwLDAgMiwxMkE1LDUgMCAwLDAgNywxN0M4LjY0LDE3IDEwLjA5LDE2LjIxIDExLDE1SDEzQzEzLjkxLDE2LjIxIDE1LjM2LDE3IDE3LDE3QTUsNSAwIDAsMCAyMiwxMkE1LDUgMCAwLDAgMTcsN0g3WiIgLz48L3N2Zz4=",
       "name": "Gamepads",
@@ -54878,6 +55079,7 @@
       "category": "Visual effect",
       "extensionNamespace": "",
       "fullName": "YSort",
+      "gdevelopVersion": "",
       "helpPath": "",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXNvcnQtYXNjZW5kaW5nIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE5IDE3SDIyTDE4IDIxTDE0IDE3SDE3VjNIMTlNMiAxN0gxMlYxOUgyTTYgNVY3SDJWNU0yIDExSDlWMTNIMlYxMVoiIC8+PC9zdmc+",
       "name": "YSort",
