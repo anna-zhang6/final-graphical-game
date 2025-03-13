@@ -1345,6 +1345,22 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Comedy/33859870684957834d2e4684bb5ff45a72ae9d24dca68b6aa9391b6746577472_BeBop for Joey.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "pngtree-pond-clipart-cartoon-pond-with-stones-vector-png-image_6812647.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pngtree-pond-clipart-cartoon-pond-with-stones-vector-png-image_6812647.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "clipart-3418189_1920-5b1ed1c0ff1b780037b12423.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "clipart-3418189_1920-5b1ed1c0ff1b780037b12423.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3999,7 +4015,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 1.2201643882660695,
+        "zoomFactor": 1.0337203300802549,
         "windowMask": false
       },
       "objectsGroups": [
@@ -4946,21 +4962,6 @@
           "height": 0,
           "layer": "",
           "name": "Tree1",
-          "persistentUuid": "a69cb3c7-2d40-4b46-8251-5753a776acbb",
-          "width": 0,
-          "x": 616,
-          "y": 131,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree1",
           "persistentUuid": "e8b6cde7-34e3-4b4c-8763-fe13d91e4925",
           "width": 0,
           "x": 616,
@@ -5040,21 +5041,6 @@
           "width": 0,
           "x": 616,
           "y": 235,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree1",
-          "persistentUuid": "ecbfa823-a2e1-4fe0-9a1f-eab29699b012",
-          "width": 0,
-          "x": 656,
-          "y": 131,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -6293,6 +6279,56 @@
           "x": 344,
           "y": 464,
           "zOrder": 2023,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 56,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite7",
+          "persistentUuid": "db202c96-4e9b-4d3c-8d28-5aecbae50742",
+          "width": 48,
+          "x": 600,
+          "y": 88,
+          "zOrder": 2024,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "npc_4",
+          "persistentUuid": "1fe83e2d-3cfc-4468-a50c-b71790802b6d",
+          "width": 0,
+          "x": 656,
+          "y": 96,
+          "zOrder": 2025,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite8",
+          "persistentUuid": "012c6ba2-7473-41d9-aae7-a397c653184a",
+          "width": 24,
+          "x": 624,
+          "y": 112,
+          "zOrder": 2031,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7830,6 +7866,126 @@
             "LabelButtonID0": "Continue",
             "LabelButtonID1": "Exit"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite7",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "pngtree-pond-clipart-cartoon-pond-with-stones-vector-png-image_6812647.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 25
+                          },
+                          {
+                            "x": 352,
+                            "y": 25
+                          },
+                          {
+                            "x": 352,
+                            "y": 327
+                          },
+                          {
+                            "x": 7,
+                            "y": 327
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite8",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "clipart-3418189_1920-5b1ed1c0ff1b780037b12423.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 191,
+                            "y": 276
+                          },
+                          {
+                            "x": 1309,
+                            "y": 276
+                          },
+                          {
+                            "x": 1309,
+                            "y": 740
+                          },
+                          {
+                            "x": 191,
+                            "y": 740
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -7887,6 +8043,9 @@
             "objectName": "NPC"
           },
           {
+            "objectName": "NewSprite8"
+          },
+          {
             "objectName": "DialogBox"
           },
           {
@@ -7921,6 +8080,9 @@
           },
           {
             "objectName": "NewTiledSprite2"
+          },
+          {
+            "objectName": "NewSprite7"
           }
         ]
       },
@@ -14600,7 +14762,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.5843784410740929,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -14797,10 +14959,10 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Image credits:  \nUC Santa Cruz logo: University of California, Santa Cruz. ForestGEO. (2019, September 26). https://forestgeo.si.edu/university-california-santa-cruz-0  \nUC Santa Cruz second logo: UC Santa Cruz Banana Slugs logo (UCSC: 01). PNG Logo Vector Brand Downloads (SVG, EPS). (2023, June 8). https://www.freelogovectors.net/uc-santa-cruz-banana-slugs-logo/ \nBaskin's engineering logo: Home. Baskin Engineering Toolkit. (n.d.). https://toolkit.engineering.ucsc.edu/baskin-engineering-brand/ \nUCSC Dining Hall logo: UCSC Dining Services. GET. (n.d.). https://get.cbord.com/ucsc/full/about.php \nCartoon building: \n",
+          "string": "Image credits:  \nUC Santa Cruz logo: University of California, Santa Cruz. ForestGEO. (2019, September 26). https://forestgeo.si.edu/university-california-santa-cruz-0  \nUC Santa Cruz second logo: UC Santa Cruz Banana Slugs logo (UCSC: 01). PNG Logo Vector Brand Downloads (SVG, EPS). (2023, June 8). https://www.freelogovectors.net/uc-santa-cruz-banana-slugs-logo/ \nBaskin's engineering logo: Home. Baskin Engineering Toolkit. (n.d.). https://toolkit.engineering.ucsc.edu/baskin-engineering-brand/ \nUCSC Dining Hall logo: UCSC Dining Services. GET. (n.d.). https://get.cbord.com/ucsc/full/about.php \nCartoon building: &#24494;&#34013;@-. (n.d.). Bank building clipart vector, Bank Clipart cartoon style Blue Office Building Black Windows Bank Building, Bank Clipart, Bank, Clipart PNG image for free download. Pngtree. https://pngtree.com/freepng/bank-clipart-cartoon-style-blue-office-building-black-windows-bank-building_5831988.html  \nPond: 699pic. (n.d.). Pond PNG, Vector, PSD, and clipart with transparent background for free download. Pngtree. https://pngtree.com/free-png-vectors/pond \nFish: Fisher, S. (2023, January 27). The best places to download fish clip art for free. The Spruce Crafts. https://www.thesprucecrafts.com/free-fish-clip-art-1356296 \n\nDialogue/Question source credits: \n50 things you might not know about UC Santa Cruz... UC Santa Cruz celebrates 50 years. (n.d.). http://50years.ucsc.edu/50things/  \nSchool of Engineering. (n.d.). https://registrar.ucsc.edu/catalog/archive/13-14/programs-courses/program-statements/engr.html#:~:text=The%20Baskin%20School%20of%20Engineering%20includes%20the%20Department%20of%20Applied,disciplinary%20Technology%20and%20Information%20Management \n",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 17,
           "color": {
             "b": 28,
             "g": 231,
@@ -14820,11 +14982,11 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Image credits:  \nUC Santa Cruz logo: University of California, Santa Cruz. ForestGEO. (2019, September 26). https://forestgeo.si.edu/university-california-santa-cruz-0  \nUC Santa Cruz second logo: UC Santa Cruz Banana Slugs logo (UCSC: 01). PNG Logo Vector Brand Downloads (SVG, EPS). (2023, June 8). https://www.freelogovectors.net/uc-santa-cruz-banana-slugs-logo/ \nBaskin's engineering logo: Home. Baskin Engineering Toolkit. (n.d.). https://toolkit.engineering.ucsc.edu/baskin-engineering-brand/ \nUCSC Dining Hall logo: UCSC Dining Services. GET. (n.d.). https://get.cbord.com/ucsc/full/about.php \nCartoon building: \n",
+            "text": "Image credits:  \nUC Santa Cruz logo: University of California, Santa Cruz. ForestGEO. (2019, September 26). https://forestgeo.si.edu/university-california-santa-cruz-0  \nUC Santa Cruz second logo: UC Santa Cruz Banana Slugs logo (UCSC: 01). PNG Logo Vector Brand Downloads (SVG, EPS). (2023, June 8). https://www.freelogovectors.net/uc-santa-cruz-banana-slugs-logo/ \nBaskin's engineering logo: Home. Baskin Engineering Toolkit. (n.d.). https://toolkit.engineering.ucsc.edu/baskin-engineering-brand/ \nUCSC Dining Hall logo: UCSC Dining Services. GET. (n.d.). https://get.cbord.com/ucsc/full/about.php \nCartoon building: &#24494;&#34013;@-. (n.d.). Bank building clipart vector, Bank Clipart cartoon style Blue Office Building Black Windows Bank Building, Bank Clipart, Bank, Clipart PNG image for free download. Pngtree. https://pngtree.com/freepng/bank-clipart-cartoon-style-blue-office-building-black-windows-bank-building_5831988.html  \nPond: 699pic. (n.d.). Pond PNG, Vector, PSD, and clipart with transparent background for free download. Pngtree. https://pngtree.com/free-png-vectors/pond \nFish: Fisher, S. (2023, January 27). The best places to download fish clip art for free. The Spruce Crafts. https://www.thesprucecrafts.com/free-fish-clip-art-1356296 \n\nDialogue/Question source credits: \n50 things you might not know about UC Santa Cruz... UC Santa Cruz celebrates 50 years. (n.d.). http://50years.ucsc.edu/50things/  \nSchool of Engineering. (n.d.). https://registrar.ucsc.edu/catalog/archive/13-14/programs-courses/program-statements/engr.html#:~:text=The%20Baskin%20School%20of%20Engineering%20includes%20the%20Department%20of%20Applied,disciplinary%20Technology%20and%20Information%20Management \n",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 17,
             "color": "248;231;28"
           }
         }
