@@ -1331,6 +1331,20 @@
         "name": "spacebar-pagedown.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/BeBop for Joey.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "33859870684957834d2e4684bb5ff45a72ae9d24dca68b6aa9391b6746577472_BeBop for Joey.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Comedy/33859870684957834d2e4684bb5ff45a72ae9d24dca68b6aa9391b6746577472_BeBop for Joey.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -3985,7 +3999,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.9358233664384451,
+        "zoomFactor": 1.2201643882660695,
         "windowMask": false
       },
       "objectsGroups": [
@@ -7999,6 +8013,18 @@
               },
               "parameters": [
                 "DialogBox4"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "33859870684957834d2e4684bb5ff45a72ae9d24dca68b6aa9391b6746577472_BeBop for Joey.aac",
+                "no",
+                "65",
+                ""
               ]
             }
           ]
