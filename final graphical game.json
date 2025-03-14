@@ -1984,6 +1984,46 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/9bea0f583a55369702c6bf99b149d4f8a672f2ea7817ed82dda7ee79ace65d4d_Female Character 8_Walking Up_3.png",
           "name": "Female Character 8_Walking Up_3.png"
         }
+      },
+      {
+        "file": "Screenshot 2025-03-14 at 8.55.43 AM.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2025-03-14 at 8.55.43 AM.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "istockphoto-1205121057-612x612.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "istockphoto-1205121057-612x612.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Shaded Yellow Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shaded Yellow Fill Bar.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/ac0ee866c59fb4ae98d677c587fb14df67301d8ef0641f7d4eafceebcd63185d_Shaded Yellow Fill Bar.png",
+          "name": "Shaded Yellow Fill Bar.png"
+        }
+      },
+      {
+        "file": "assets/Wood Bar Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wood Bar Border.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/5c3135f6fa8587da82ddea950881fc8b35d422bb806d9331f8b47fdc715ee76a_Wood Bar Border.png",
+          "name": "Wood Bar Border.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -4518,6 +4558,279 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Tilemap_Ground",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "TilesetFloor.png",
+        "rowCount": 26,
+        "columnCount": 22,
+        "tileSize": 16,
+        "tilesWithHitBox": "165,166,167,168,169,170,171,172,173,174,187,209,231,188,210,232,189,211,233,190,212,234,191,213,235,192,214,236,193,215,237,194,216,238,195,217,239,196,218,240,219,241,256,257,258,259,260,261,254,253,275,276,277,278,279"
+      }
+    },
+    {
+      "assetStoreId": "d071c8baaa781a445ba1c3742b300714155d61cfc7423a04ae29c282014dcee7",
+      "name": "ScoreCounter",
+      "type": "ScoreCounter::ScoreCounter",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "Score": 0
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 30,
+          "height": 64,
+          "leftMargin": 30,
+          "rightMargin": 30,
+          "texture": "Group 12.png",
+          "tiled": true,
+          "topMargin": 30,
+          "width": 64
+        },
+        "Counter": {
+          "bold": true,
+          "italic": true,
+          "smoothed": true,
+          "underlined": false,
+          "string": "0",
+          "font": "JotiOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 231,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": true,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 10,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "JotiOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "center",
+            "characterSize": 30,
+            "color": "255;231;0"
+          }
+        },
+        "Icon": {
+          "adaptCollisionMaskAutomatically": false,
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Star Gold.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 23,
+                        "y": 23
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "start_button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "TopPadding": 8,
+        "BottomPadding": 8,
+        "LeftPadding": 8,
+        "RightPadding": 8
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 8,
+          "height": 32,
+          "leftMargin": 8,
+          "rightMargin": 8,
+          "texture": "Border2.png",
+          "tiled": false,
+          "topMargin": 8,
+          "width": 32
+        },
+        "Idle": {
+          "bottomMargin": 8,
+          "height": 32,
+          "leftMargin": 8,
+          "rightMargin": 8,
+          "texture": "Border.png",
+          "tiled": false,
+          "topMargin": 8,
+          "width": 32
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Start",
+          "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
+          "textAlignment": "center",
+          "characterSize": 25,
+          "color": {
+            "b": 10,
+            "g": 16,
+            "r": 17
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "44;77;5",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Start",
+            "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 25,
+            "color": "17;16;10"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 8,
+          "height": 32,
+          "leftMargin": 8,
+          "rightMargin": 8,
+          "texture": "Border2.png",
+          "tiled": false,
+          "topMargin": 8,
+          "width": 32
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "main_menu",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "TopPadding": 8,
+        "BottomPadding": 8,
+        "LeftPadding": 8,
+        "RightPadding": 8
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 8,
+          "height": 32,
+          "leftMargin": 8,
+          "rightMargin": 8,
+          "texture": "Border2.png",
+          "tiled": false,
+          "topMargin": 8,
+          "width": 32
+        },
+        "Idle": {
+          "bottomMargin": 8,
+          "height": 32,
+          "leftMargin": 8,
+          "rightMargin": 8,
+          "texture": "Border.png",
+          "tiled": false,
+          "topMargin": 8,
+          "width": 32
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "MAIN MENU",
+          "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
+          "textAlignment": "center",
+          "characterSize": 25,
+          "color": {
+            "b": 10,
+            "g": 16,
+            "r": 17
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "44;77;5",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "MAIN MENU",
+            "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 25,
+            "color": "17;16;10"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 8,
+          "height": 32,
+          "leftMargin": 8,
+          "rightMargin": 8,
+          "texture": "Border2.png",
+          "tiled": false,
+          "topMargin": 8,
+          "width": 32
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -4549,6 +4862,18 @@
       },
       {
         "objectName": "MaleCharacter6"
+      },
+      {
+        "objectName": "Tilemap_Ground"
+      },
+      {
+        "objectName": "ScoreCounter"
+      },
+      {
+        "objectName": "start_button"
+      },
+      {
+        "objectName": "main_menu"
       }
     ]
   },
@@ -4739,88 +5064,6 @@
         },
         {
           "assetStoreId": "",
-          "name": "start_button",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "TopPadding": 8,
-            "BottomPadding": 8,
-            "LeftPadding": 8,
-            "RightPadding": 8
-          },
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 8,
-              "height": 32,
-              "leftMargin": 8,
-              "rightMargin": 8,
-              "texture": "Border2.png",
-              "tiled": false,
-              "topMargin": 8,
-              "width": 32
-            },
-            "Idle": {
-              "bottomMargin": 8,
-              "height": 32,
-              "leftMargin": 8,
-              "rightMargin": 8,
-              "texture": "Border.png",
-              "tiled": false,
-              "topMargin": 8,
-              "width": 32
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "Start",
-              "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
-              "textAlignment": "center",
-              "characterSize": 25,
-              "color": {
-                "b": 10,
-                "g": 16,
-                "r": 17
-              },
-              "content": {
-                "bold": false,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
-                "italic": false,
-                "outlineColor": "255;255;255",
-                "outlineThickness": 2,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "44;77;5",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "Start",
-                "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
-                "textAlignment": "center",
-                "verticalTextAlignment": "top",
-                "characterSize": 25,
-                "color": "17;16;10"
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 8,
-              "height": 32,
-              "leftMargin": 8,
-              "rightMargin": 8,
-              "texture": "Border2.png",
-              "tiled": false,
-              "topMargin": 8,
-              "width": 32
-            }
-          }
-        },
-        {
-          "assetStoreId": "",
           "bold": false,
           "italic": false,
           "name": "Instructions",
@@ -4955,9 +5198,6 @@
           },
           {
             "objectName": "game_title"
-          },
-          {
-            "objectName": "start_button"
           },
           {
             "objectName": "credits"
@@ -5159,17 +5399,17 @@
       ]
     },
     {
-      "b": 146,
+      "b": 226,
       "disableInputWhenNotFocused": true,
       "mangledName": "Overworld",
       "name": "Overworld",
-      "r": 156,
+      "r": 74,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 146,
+      "v": 144,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 8,
         "gridHeight": 8,
@@ -5177,8 +5417,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.2,
-        "snap": true,
-        "zoomFactor": 0.9358233664384482,
+        "snap": false,
+        "zoomFactor": 1.3478064124332179,
         "windowMask": false
       },
       "objectsGroups": [
@@ -7058,22 +7298,6 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "E",
-          "persistentUuid": "7b1ce93a-46de-411f-8ab7-40b6954339c4",
-          "width": 0,
-          "x": 868,
-          "y": 237,
-          "zOrder": 2019,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
           "layer": "Dialogue",
           "name": "DialogBox2",
           "persistentUuid": "d3d87f43-71c2-4656-9486-d2b58135ab74",
@@ -7097,23 +7321,6 @@
           "x": 344,
           "y": 464,
           "zOrder": 2022,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 8,
-          "keepRatio": true,
-          "layer": "",
-          "name": "E",
-          "persistentUuid": "552ba4a8-27bb-4fc8-8bd7-0c2299a33cee",
-          "width": 8,
-          "x": 588,
-          "y": 237,
-          "zOrder": 2019,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7455,8 +7662,8 @@
           "name": "ScoreCounter",
           "persistentUuid": "ed040624-9e4e-4f7d-96a0-dcf31f7470d9",
           "width": 245,
-          "x": 379,
-          "y": 37,
+          "x": 203,
+          "y": 69,
           "zOrder": 2036,
           "numberProperties": [],
           "stringProperties": [],
@@ -7480,23 +7687,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 8,
-          "keepRatio": true,
-          "layer": "",
-          "name": "E",
-          "persistentUuid": "5e5c9da5-53a6-4855-92d1-4b7f9c6afba9",
-          "width": 8,
-          "x": 660,
-          "y": 87,
-          "zOrder": 2019,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -7507,23 +7697,6 @@
           "x": 507,
           "y": 134,
           "zOrder": 2038,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 8,
-          "keepRatio": true,
-          "layer": "",
-          "name": "E",
-          "persistentUuid": "977b3c8b-e97e-477a-9870-a977adc1e3fc",
-          "width": 8,
-          "x": 512,
-          "y": 124,
-          "zOrder": 2019,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7562,23 +7735,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 8,
-          "keepRatio": true,
-          "layer": "",
-          "name": "E",
-          "persistentUuid": "d86fdb78-4ecc-40e5-b546-3195240dbc69",
-          "width": 8,
-          "x": 804,
-          "y": 102,
-          "zOrder": 2019,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -7589,23 +7745,6 @@
           "x": 344,
           "y": 464,
           "zOrder": 2041,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 8,
-          "keepRatio": true,
-          "layer": "",
-          "name": "E",
-          "persistentUuid": "e1ab59ea-fe9f-4187-bf84-b78fef2ba170",
-          "width": 8,
-          "x": 586,
-          "y": 284,
-          "zOrder": 2019,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7660,23 +7799,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 8,
-          "keepRatio": true,
-          "layer": "",
-          "name": "E",
-          "persistentUuid": "8513a0ee-9820-43b5-b04c-6ecb624fb0dd",
-          "width": 8,
-          "x": 525,
-          "y": 181,
-          "zOrder": 2019,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -7687,6 +7809,221 @@
           "x": 344,
           "y": 464,
           "zOrder": 2045,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 464,
+          "keepRatio": true,
+          "layer": "big screen",
+          "name": "Tilemap_Ground",
+          "persistentUuid": "275d9fb7-0df1-4ab7-ac9c-6a5d16ed0133",
+          "width": 1200,
+          "x": 40,
+          "y": 160,
+          "zOrder": 2049,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":11,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[154,155,155,155,155,155,155,155,155,155,156],[176,177,177,177,177,177,177,177,177,177,178],[176,177,177,177,177,177,177,177,177,177,178],[198,199,199,199,199,199,199,199,199,199,200]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "big screen",
+          "name": "you_win",
+          "persistentUuid": "9cac7c31-22f0-4a9b-a98e-434cf17f709b",
+          "width": 0,
+          "x": 85,
+          "y": 230,
+          "zOrder": 2050,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "big screen",
+          "name": "main_menu",
+          "persistentUuid": "ea7d09b4-612e-4a87-9a4c-ead4802696ad",
+          "width": 200,
+          "x": 528,
+          "y": 496,
+          "zOrder": 2051,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GoldCoin",
+          "persistentUuid": "e259f574-f743-4a55-bfb4-90d143629927",
+          "width": 0,
+          "x": 472,
+          "y": 360,
+          "zOrder": 2052,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GoldCoin",
+          "persistentUuid": "91a529ac-b27a-47d3-95ea-04a8734358ac",
+          "width": 0,
+          "x": 528,
+          "y": 136,
+          "zOrder": 2053,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GoldCoin",
+          "persistentUuid": "9f6e8579-ce92-49ff-94ff-a4fe7729ac69",
+          "width": 0,
+          "x": 400,
+          "y": 176,
+          "zOrder": 2054,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "E_1",
+          "persistentUuid": "ae2513fa-81c4-4136-b051-1b269757ff2a",
+          "width": 0,
+          "x": 867,
+          "y": 238,
+          "zOrder": 2055,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "E_2",
+          "persistentUuid": "949b766c-d321-4e6b-99ba-34b26e8aa3c6",
+          "width": 0,
+          "x": 588,
+          "y": 237,
+          "zOrder": 2056,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "E_4",
+          "persistentUuid": "818473bb-5564-4e81-bc3f-892ee039c720",
+          "width": 0,
+          "x": 661,
+          "y": 87,
+          "zOrder": 2057,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "E_5",
+          "persistentUuid": "23c84948-3dd8-49d8-b2a2-83caafd5dc15",
+          "width": 0,
+          "x": 511,
+          "y": 124,
+          "zOrder": 2058,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "E_6",
+          "persistentUuid": "310cff47-a907-4285-8c59-e26d0249d278",
+          "width": 0,
+          "x": 805,
+          "y": 101,
+          "zOrder": 2059,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "E_7",
+          "persistentUuid": "db380239-fef3-47e1-be86-b574d54d665c",
+          "width": 0,
+          "x": 586,
+          "y": 285,
+          "zOrder": 2060,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "E_8",
+          "persistentUuid": "354433ee-bce9-44ef-8dbf-8168ed2922f5",
+          "width": 0,
+          "x": 524,
+          "y": 181,
+          "zOrder": 2061,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8256,22 +8593,7 @@
           ]
         },
         {
-          "assetStoreId": "",
-          "name": "Tilemap_Ground",
-          "type": "TileMap::SimpleTileMap",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "atlasImage": "TilesetFloor.png",
-            "rowCount": 26,
-            "columnCount": 22,
-            "tileSize": 16,
-            "tilesWithHitBox": "165,166,167,168,169,170,171,172,173,174,187,209,231,188,210,232,189,211,233,190,212,234,191,213,235,192,214,236,193,215,237,194,216,238,195,217,239,196,218,240,219,241,256,257,258,259,260,261,254,253,275,276,277,278,279"
-          }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "NewSprite",
           "type": "Sprite",
@@ -8306,20 +8628,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 86,
-                            "y": 52
+                            "x": 87,
+                            "y": 204.5
                           },
                           {
-                            "x": 274,
-                            "y": 52
+                            "x": 272.5,
+                            "y": 202.5
                           },
                           {
-                            "x": 274,
-                            "y": 308
+                            "x": 272.5,
+                            "y": 274
                           },
                           {
-                            "x": 86,
-                            "y": 308
+                            "x": 87,
+                            "y": 274
                           }
                         ]
                       ]
@@ -9406,100 +9728,6 @@
           ]
         },
         {
-          "assetStoreId": "d071c8baaa781a445ba1c3742b300714155d61cfc7423a04ae29c282014dcee7",
-          "name": "ScoreCounter",
-          "type": "ScoreCounter::ScoreCounter",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "Score": 0
-          },
-          "childrenContent": {
-            "Background": {
-              "bottomMargin": 30,
-              "height": 64,
-              "leftMargin": 30,
-              "rightMargin": 30,
-              "texture": "Group 12.png",
-              "tiled": true,
-              "topMargin": 30,
-              "width": 64
-            },
-            "Counter": {
-              "bold": true,
-              "italic": true,
-              "smoothed": true,
-              "underlined": false,
-              "string": "0",
-              "font": "JotiOne-Regular.ttf",
-              "textAlignment": "left",
-              "characterSize": 30,
-              "color": {
-                "b": 0,
-                "g": 231,
-                "r": 255
-              },
-              "content": {
-                "bold": true,
-                "isOutlineEnabled": true,
-                "isShadowEnabled": false,
-                "italic": true,
-                "outlineColor": "0;0;0",
-                "outlineThickness": 10,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "0;0;0",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "0",
-                "font": "JotiOne-Regular.ttf",
-                "textAlignment": "left",
-                "verticalTextAlignment": "center",
-                "characterSize": 30,
-                "color": "255;231;0"
-              }
-            },
-            "Icon": {
-              "adaptCollisionMaskAutomatically": false,
-              "updateIfNotVisible": false,
-              "animations": [
-                {
-                  "name": "",
-                  "useMultipleDirections": false,
-                  "directions": [
-                    {
-                      "looping": true,
-                      "timeBetweenFrames": 0.025,
-                      "sprites": [
-                        {
-                          "hasCustomCollisionMask": false,
-                          "image": "Star Gold.png",
-                          "points": [],
-                          "originPoint": {
-                            "name": "origine",
-                            "x": 23,
-                            "y": 23
-                          },
-                          "centerPoint": {
-                            "automatic": false,
-                            "name": "centre",
-                            "x": 0,
-                            "y": 0
-                          },
-                          "customCollisionMask": []
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        },
-        {
           "assetStoreId": "",
           "name": "FactBox1",
           "type": "TwoChoicesDialogBoxes::TwoChoicesDialogBox",
@@ -9563,6 +9791,421 @@
             "LabelButtonID0": "Continue",
             "LabelButtonID1": "Exit"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "you_win",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "YOU WIN!",
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 200,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "YOU WIN!",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 200,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewButton",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {},
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Idle": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Text",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Text",
+                "font": "",
+                "textAlignment": "",
+                "verticalTextAlignment": "top",
+                "characterSize": 20,
+                "color": "0;0;0"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "E_1",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 2,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ShakeObject_PositionAngle",
+              "type": "ShakeObject::ShakeObject_PositionAngle"
+            }
+          ],
+          "content": {
+            "text": "E",
+            "opacity": 255,
+            "scale": 0.5,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+            "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited.png",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "E_2",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 2,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ShakeObject_PositionAngle",
+              "type": "ShakeObject::ShakeObject_PositionAngle"
+            }
+          ],
+          "content": {
+            "text": "E",
+            "opacity": 255,
+            "scale": 0.5,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+            "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited.png",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "E_3",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 2,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ShakeObject_PositionAngle",
+              "type": "ShakeObject::ShakeObject_PositionAngle"
+            }
+          ],
+          "content": {
+            "text": "E",
+            "opacity": 255,
+            "scale": 0.5,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+            "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited.png",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "E_4",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 2,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ShakeObject_PositionAngle",
+              "type": "ShakeObject::ShakeObject_PositionAngle"
+            }
+          ],
+          "content": {
+            "text": "E",
+            "opacity": 255,
+            "scale": 0.5,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+            "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited.png",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "E_5",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 2,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ShakeObject_PositionAngle",
+              "type": "ShakeObject::ShakeObject_PositionAngle"
+            }
+          ],
+          "content": {
+            "text": "E",
+            "opacity": 255,
+            "scale": 0.5,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+            "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited.png",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "E_6",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 2,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ShakeObject_PositionAngle",
+              "type": "ShakeObject::ShakeObject_PositionAngle"
+            }
+          ],
+          "content": {
+            "text": "E",
+            "opacity": 255,
+            "scale": 0.5,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+            "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited.png",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "E_7",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 2,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ShakeObject_PositionAngle",
+              "type": "ShakeObject::ShakeObject_PositionAngle"
+            }
+          ],
+          "content": {
+            "text": "E",
+            "opacity": 255,
+            "scale": 0.5,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+            "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited.png",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "E_8",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 2,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ShakeObject_PositionAngle",
+              "type": "ShakeObject::ShakeObject_PositionAngle"
+            }
+          ],
+          "content": {
+            "text": "E",
+            "opacity": 255,
+            "scale": 0.5,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+            "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited.png",
+            "align": "left",
+            "wordWrap": true
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -9571,9 +10214,6 @@
           {
             "folderName": "Background",
             "children": [
-              {
-                "objectName": "Tilemap_Ground"
-              },
               {
                 "objectName": "NewSprite6"
               }
@@ -9604,6 +10244,30 @@
             "children": [
               {
                 "objectName": "E"
+              },
+              {
+                "objectName": "E_2"
+              },
+              {
+                "objectName": "E_3"
+              },
+              {
+                "objectName": "E_4"
+              },
+              {
+                "objectName": "E_5"
+              },
+              {
+                "objectName": "E_6"
+              },
+              {
+                "objectName": "E_7"
+              },
+              {
+                "objectName": "E_8"
+              },
+              {
+                "objectName": "E_1"
               },
               {
                 "objectName": "E2"
@@ -9680,7 +10344,10 @@
             "objectName": "GoldCoin"
           },
           {
-            "objectName": "ScoreCounter"
+            "objectName": "you_win"
+          },
+          {
+            "objectName": "NewButton"
           }
         ]
       },
@@ -9725,6 +10392,134 @@
               },
               "parameters": [
                 "E",
+                "ShakeObject_PositionAngle",
+                "0.5",
+                "0",
+                "1",
+                "10",
+                "1",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+              },
+              "parameters": [
+                "E_8",
+                "ShakeObject_PositionAngle",
+                "0.5",
+                "0",
+                "1",
+                "10",
+                "1",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+              },
+              "parameters": [
+                "E_7",
+                "ShakeObject_PositionAngle",
+                "0.5",
+                "0",
+                "1",
+                "10",
+                "1",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+              },
+              "parameters": [
+                "E_6",
+                "ShakeObject_PositionAngle",
+                "0.5",
+                "0",
+                "1",
+                "10",
+                "1",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+              },
+              "parameters": [
+                "E_5",
+                "ShakeObject_PositionAngle",
+                "0.5",
+                "0",
+                "1",
+                "10",
+                "1",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+              },
+              "parameters": [
+                "E_4",
+                "ShakeObject_PositionAngle",
+                "0.5",
+                "0",
+                "1",
+                "10",
+                "1",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+              },
+              "parameters": [
+                "E_3",
+                "ShakeObject_PositionAngle",
+                "0.5",
+                "0",
+                "1",
+                "10",
+                "1",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+              },
+              "parameters": [
+                "E_2",
+                "ShakeObject_PositionAngle",
+                "0.5",
+                "0",
+                "1",
+                "10",
+                "1",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+              },
+              "parameters": [
+                "E_1",
                 "ShakeObject_PositionAngle",
                 "0.5",
                 "0",
@@ -9825,6 +10620,15 @@
                 "no",
                 "65",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"big screen\""
               ]
             }
           ]
@@ -10081,6 +10885,17 @@
                     },
                     {
                       "type": {
+                        "value": "ScoreCounter::ScoreCounter::SetScore"
+                      },
+                      "parameters": [
+                        "ScoreCounter",
+                        "+",
+                        "2",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "PushScene"
                       },
                       "parameters": [
@@ -10162,15 +10977,6 @@
                   },
                   "parameters": [
                     "DialogBox"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "E",
-                    ""
                   ]
                 },
                 {
@@ -10261,7 +11067,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "E"
+                    "E_1"
                   ]
                 },
                 {
@@ -10350,6 +11156,17 @@
                     },
                     {
                       "type": {
+                        "value": "ScoreCounter::ScoreCounter::SetScore"
+                      },
+                      "parameters": [
+                        "ScoreCounter",
+                        "+",
+                        "2",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "PushScene"
                       },
                       "parameters": [
@@ -10386,7 +11203,7 @@
                         "value": "Montre"
                       },
                       "parameters": [
-                        "E",
+                        "E_1",
                         ""
                       ]
                     },
@@ -10431,15 +11248,6 @@
                   },
                   "parameters": [
                     "DialogBox2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "E",
-                    ""
                   ]
                 },
                 {
@@ -10530,7 +11338,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "E"
+                    "E_2"
                   ]
                 },
                 {
@@ -10619,6 +11427,17 @@
                     },
                     {
                       "type": {
+                        "value": "ScoreCounter::ScoreCounter::SetScore"
+                      },
+                      "parameters": [
+                        "ScoreCounter",
+                        "+",
+                        "2",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "PushScene"
                       },
                       "parameters": [
@@ -10655,7 +11474,7 @@
                         "value": "Montre"
                       },
                       "parameters": [
-                        "E",
+                        "E_2",
                         ""
                       ]
                     },
@@ -10700,15 +11519,6 @@
                   },
                   "parameters": [
                     "DialogBox3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "E",
-                    ""
                   ]
                 },
                 {
@@ -10799,7 +11609,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "E"
+                    "E_3"
                   ]
                 },
                 {
@@ -10888,6 +11698,17 @@
                     },
                     {
                       "type": {
+                        "value": "ScoreCounter::ScoreCounter::SetScore"
+                      },
+                      "parameters": [
+                        "ScoreCounter",
+                        "+",
+                        "2",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "PushScene"
                       },
                       "parameters": [
@@ -10924,7 +11745,7 @@
                         "value": "Montre"
                       },
                       "parameters": [
-                        "E",
+                        "E_3",
                         ""
                       ]
                     },
@@ -10969,15 +11790,6 @@
                   },
                   "parameters": [
                     "DialogBox4"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "E",
-                    ""
                   ]
                 },
                 {
@@ -11068,7 +11880,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "E"
+                    "E_4"
                   ]
                 },
                 {
@@ -11136,7 +11948,18 @@
                         "value": "Montre"
                       },
                       "parameters": [
-                        "E",
+                        "E_4",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScoreCounter::ScoreCounter::SetScore"
+                      },
+                      "parameters": [
+                        "ScoreCounter",
+                        "+",
+                        "1",
                         ""
                       ]
                     },
@@ -11181,15 +12004,6 @@
                   },
                   "parameters": [
                     "FactBox1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "E",
-                    ""
                   ]
                 },
                 {
@@ -11280,7 +12094,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "E"
+                    "E_5"
                   ]
                 },
                 {
@@ -11348,7 +12162,18 @@
                         "value": "Montre"
                       },
                       "parameters": [
-                        "E",
+                        "E_5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScoreCounter::ScoreCounter::SetScore"
+                      },
+                      "parameters": [
+                        "ScoreCounter",
+                        "+",
+                        "1",
                         ""
                       ]
                     },
@@ -11393,15 +12218,6 @@
                   },
                   "parameters": [
                     "FactBox2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "E",
-                    ""
                   ]
                 },
                 {
@@ -11492,7 +12308,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "E"
+                    "E_6"
                   ]
                 },
                 {
@@ -11560,7 +12376,18 @@
                         "value": "Montre"
                       },
                       "parameters": [
-                        "E",
+                        "E_6",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScoreCounter::ScoreCounter::SetScore"
+                      },
+                      "parameters": [
+                        "ScoreCounter",
+                        "+",
+                        "1",
                         ""
                       ]
                     },
@@ -11605,15 +12432,6 @@
                   },
                   "parameters": [
                     "FactBox3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "E",
-                    ""
                   ]
                 },
                 {
@@ -11704,7 +12522,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "E"
+                    "E_7"
                   ]
                 },
                 {
@@ -11772,7 +12590,18 @@
                         "value": "Montre"
                       },
                       "parameters": [
-                        "E",
+                        "E_7",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScoreCounter::ScoreCounter::SetScore"
+                      },
+                      "parameters": [
+                        "ScoreCounter",
+                        "+",
+                        "1",
                         ""
                       ]
                     },
@@ -11817,15 +12646,6 @@
                   },
                   "parameters": [
                     "FactBox4"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "E",
-                    ""
                   ]
                 },
                 {
@@ -11916,7 +12736,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "E"
+                    "E_8"
                   ]
                 },
                 {
@@ -11984,7 +12804,18 @@
                         "value": "Montre"
                       },
                       "parameters": [
-                        "E",
+                        "E_8",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScoreCounter::ScoreCounter::SetScore"
+                      },
+                      "parameters": [
+                        "ScoreCounter",
+                        "+",
+                        "1",
                         ""
                       ]
                     },
@@ -12029,15 +12860,6 @@
                   },
                   "parameters": [
                     "FactBox5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "E",
-                    ""
                   ]
                 },
                 {
@@ -12199,10 +13021,11 @@
           "actions": [
             {
               "type": {
-                "value": "Cache"
+                "value": "Delete"
               },
               "parameters": [
-                "GoldCoin"
+                "GoldCoin",
+                ""
               ]
             },
             {
@@ -12214,6 +13037,90 @@
                 "+",
                 "1",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "NewSprite",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Player",
+                "NewSprite",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ScoreCounter::ScoreCounter::Score"
+              },
+              "parameters": [
+                "ScoreCounter",
+                ">=",
+                "20",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"big screen\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+                  },
+                  "parameters": [
+                    "main_menu",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"title page\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -12326,7 +13233,7 @@
           "isLocked": false,
           "name": "big screen",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -12589,22 +13496,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Background2",
-          "persistentUuid": "64eada9d-7281-48f6-83aa-7f0a209cbba4",
-          "width": 0,
-          "x": 1296,
-          "y": 293,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 303,
@@ -12618,6 +13509,28 @@
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 170,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "Tilemap_Ground",
+          "persistentUuid": "d8ffa0ab-9018-45cd-8abf-0754057bbe38",
+          "width": 364,
+          "x": 1344,
+          "y": 494,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":4,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[154,155,156,202],[176,181,200,202]]}]}"
+            }
+          ],
           "initialVariables": []
         }
       ],
@@ -13187,22 +14100,6 @@
             },
             {
               "type": {
-                "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
-              },
-              "parameters": [
-                "Player",
-                "ShakeObject_PositionAngle",
-                "0.5",
-                "7",
-                "7",
-                "0",
-                "2",
-                "yes",
-                "yes"
-              ]
-            },
-            {
-              "type": {
                 "value": "ZoomCamera"
               },
               "parameters": [
@@ -13414,11 +14311,10 @@
                     },
                     {
                       "type": {
-                        "value": "PushScene"
+                        "value": "PopScene"
                       },
                       "parameters": [
-                        "",
-                        "\"Overworld\""
+                        ""
                       ]
                     }
                   ]
@@ -13746,22 +14642,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Background2",
-          "persistentUuid": "64eada9d-7281-48f6-83aa-7f0a209cbba4",
-          "width": 0,
-          "x": 1296,
-          "y": 293,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 424,
@@ -13773,6 +14653,23 @@
           "x": 818,
           "y": 47,
           "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 169,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "library_background",
+          "persistentUuid": "ed232e4a-33eb-4a84-96f7-96519fa6efed",
+          "width": 386,
+          "x": 1283,
+          "y": 478,
+          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14360,6 +15257,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "library_background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "istockphoto-1205121057-612x612.webp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 612,
+                            "y": 0
+                          },
+                          {
+                            "x": 612,
+                            "y": 285
+                          },
+                          {
+                            "x": 0,
+                            "y": 285
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -14373,6 +15330,9 @@
               },
               {
                 "objectName": "Grass"
+              },
+              {
+                "objectName": "library_background"
               }
             ]
           },
@@ -14681,11 +15641,10 @@
                     },
                     {
                       "type": {
-                        "value": "PushScene"
+                        "value": "PopScene"
                       },
                       "parameters": [
-                        "",
-                        "\"Overworld\""
+                        ""
                       ]
                     }
                   ]
@@ -15948,11 +16907,10 @@
                     },
                     {
                       "type": {
-                        "value": "PushScene"
+                        "value": "PopScene"
                       },
                       "parameters": [
-                        "",
-                        "\"Overworld\""
+                        ""
                       ]
                     }
                   ]
@@ -17215,11 +18173,10 @@
                     },
                     {
                       "type": {
-                        "value": "PushScene"
+                        "value": "PopScene"
                       },
                       "parameters": [
-                        "",
-                        "\"Overworld\""
+                        ""
                       ]
                     }
                   ]
@@ -17367,114 +18324,6 @@
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
-        }
-      ]
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "npc_32interaction_321",
-      "name": "npc interaction 1",
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.546875,
-        "windowMask": false
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [],
-      "objects": [],
-      "objectsFolderStructure": {
-        "folderName": "__ROOT"
-      },
-      "events": [],
-      "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        }
-      ],
-      "behaviorsSharedData": [
-        {
-          "name": "Animation",
-          "type": "AnimatableCapability::AnimatableBehavior"
-        },
-        {
-          "name": "Effect",
-          "type": "EffectCapability::EffectBehavior"
-        },
-        {
-          "name": "FlashTransitionPainter",
-          "type": "FlashTransitionPainter::FlashTransitionPainter"
-        },
-        {
-          "name": "Flippable",
-          "type": "FlippableCapability::FlippableBehavior"
-        },
-        {
-          "name": "Opacity",
-          "type": "OpacityCapability::OpacityBehavior"
-        },
-        {
-          "name": "Resizable",
-          "type": "ResizableCapability::ResizableBehavior"
-        },
-        {
-          "name": "Scale",
-          "type": "ScalableCapability::ScalableBehavior"
         }
       ]
     },
