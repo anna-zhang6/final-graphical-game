@@ -1408,6 +1408,582 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Score counters/assets/a8c7c959ab7f3dbb0fcf98d5355fb8839186d33f3c9d7203ef20450fa5a72091_JotiOne-Regular.ttf",
           "name": "JotiOne-Regular.ttf"
         }
+      },
+      {
+        "file": "assets/Female Character 3_Walking Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 3_Walking Down_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/c14b5e9b76b6b9ec23dce7caec2ab2decbfa2ff399d24029202176af617543a9_Female Character 3_Walking Down_1.png",
+          "name": "Female Character 3_Walking Down_1.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 3_Walking Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 3_Walking Down_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/45f6b8894bee2c2be64ac744d4886e2d1711710572e386479af147854035ee22_Female Character 3_Walking Down_2.png",
+          "name": "Female Character 3_Walking Down_2.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 3_Walking Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 3_Walking Down_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/32a96c800a8e0a89fe00cc8a9d58fc82a5f1aab36f0586e3017adb08072182b2_Female Character 3_Walking Down_3.png",
+          "name": "Female Character 3_Walking Down_3.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 3_Walking Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 3_Walking Left_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/27f4fa0125b0aa27115a9dae4eb6cf3a139363e1d931d40463fb0df31cdd6add_Female Character 3_Walking Left_1.png",
+          "name": "Female Character 3_Walking Left_1.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 3_Walking Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 3_Walking Left_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/d95efe6689f6cfb1ad3bcb7c9b0768b1482ccf0ba8ef33787766db64544478b4_Female Character 3_Walking Left_2.png",
+          "name": "Female Character 3_Walking Left_2.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 3_Walking Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 3_Walking Left_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/d85318888f92f2e3fc48f5ccff08f08c8349fc8cdbb4c949d0e702610cc0168a_Female Character 3_Walking Left_3.png",
+          "name": "Female Character 3_Walking Left_3.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 3_Walking Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 3_Walking Right_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/2f47e0e02edf9a1fc3956fe1d14df5e2cb6c559eb6bd4dcdd2d5e61bbe9cf49b_Female Character 3_Walking Right_1.png",
+          "name": "Female Character 3_Walking Right_1.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 3_Walking Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 3_Walking Right_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/5dbebe08c8cae750ee652eb9de04f93ffe9e1fcd07422e866c3ca9318c8d760a_Female Character 3_Walking Right_2.png",
+          "name": "Female Character 3_Walking Right_2.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 3_Walking Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 3_Walking Right_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/b4811e581abb5c702313f2d365d524538b2696a8ab0e507705495cb549455ecb_Female Character 3_Walking Right_3.png",
+          "name": "Female Character 3_Walking Right_3.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 3_Walking Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 3_Walking Up_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/dfce68d596bbc7c304e2457318ac793b3302203022e45440d16473e387218aee_Female Character 3_Walking Up_1.png",
+          "name": "Female Character 3_Walking Up_1.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 3_Walking Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 3_Walking Up_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/d763a7d506591a8208ca04af86d39c68e77b5bde1d1e121dddccbcc6d4be5c6d_Female Character 3_Walking Up_2.png",
+          "name": "Female Character 3_Walking Up_2.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 3_Walking Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 3_Walking Up_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/6a6d4f3aa08388fa660fa714fd0ed3a0fa214493e20f7dbe69c23e0b2db3e49c_Female Character 3_Walking Up_3.png",
+          "name": "Female Character 3_Walking Up_3.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 11_Walking Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 11_Walking Down_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/9a59be2a13430d64a739b5dd56506db0b00df0bb2c2c3f8b116c09c793b05d81_Male Character 11_Walking Down_1.png",
+          "name": "Male Character 11_Walking Down_1.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 11_Walking Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 11_Walking Down_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/9f5ea5054cd2c701c0d682107bdaf0ba0a54f38acc70555996462df26b7f30ba_Male Character 11_Walking Down_2.png",
+          "name": "Male Character 11_Walking Down_2.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 11_Walking Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 11_Walking Down_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/7ac59f785f398a01ef726de17e77e4f31cab4387e9e8d2e1cb899a5a2ce4cf2a_Male Character 11_Walking Down_3.png",
+          "name": "Male Character 11_Walking Down_3.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 11_Walking Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 11_Walking Left_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/f81f6d6c21d37f020d934d84bc2d9aa2f8fcff12519202ac6f5c8ee6e7986843_Male Character 11_Walking Left_1.png",
+          "name": "Male Character 11_Walking Left_1.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 11_Walking Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 11_Walking Left_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/fc7079d25c37d74c89ea6175d31188c8368d6f9b566875d7ef0dfc5d74bd87de_Male Character 11_Walking Left_2.png",
+          "name": "Male Character 11_Walking Left_2.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 11_Walking Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 11_Walking Left_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/0fb4231023b55d112a389c024573c84f15e82758603e1b1605470106cf02925c_Male Character 11_Walking Left_3.png",
+          "name": "Male Character 11_Walking Left_3.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 11_Walking Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 11_Walking Right_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/74d02f634856d9b618532a2fd2d82d2ba31e2796d757848eb8947fc1490da6b7_Male Character 11_Walking Right_1.png",
+          "name": "Male Character 11_Walking Right_1.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 11_Walking Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 11_Walking Right_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/ebc075c34b891988eb759bfd1d216122453f7f2b8e0eafe4c9618ea8ca6125d8_Male Character 11_Walking Right_2.png",
+          "name": "Male Character 11_Walking Right_2.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 11_Walking Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 11_Walking Right_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/f191fe7586e2e1c28623ef71a5b66a5e7cad0247935f9dddb99333104d936269_Male Character 11_Walking Right_3.png",
+          "name": "Male Character 11_Walking Right_3.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 11_Walking Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 11_Walking Up_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/62c6df3be216566dbe9d76ce899cc05c5a03831798ce84f50b7bc5b5b0a294a7_Male Character 11_Walking Up_1.png",
+          "name": "Male Character 11_Walking Up_1.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 11_Walking Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 11_Walking Up_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/37d47575ec105e7eecdf3adb1859663c0576c9632af38ba674d4e306a811300b_Male Character 11_Walking Up_2.png",
+          "name": "Male Character 11_Walking Up_2.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 11_Walking Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 11_Walking Up_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/17050fb2070f934d0f150e11a621d4471737f7ab6aeb93fa2ccd007e7dac8221_Male Character 11_Walking Up_3.png",
+          "name": "Male Character 11_Walking Up_3.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 6_Walking Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 6_Walking Down_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/04fd34dbedeb1cf6b63aeaaa1cf04eff5d5f2c64521113098bcbee2d6850d87e_Male Character 6_Walking Down_1.png",
+          "name": "Male Character 6_Walking Down_1.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 6_Walking Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 6_Walking Down_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/c36984b4cd38f0a93bb509e4f26e0c3b85d5a57b173cb05223da929b47ec73ea_Male Character 6_Walking Down_2.png",
+          "name": "Male Character 6_Walking Down_2.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 6_Walking Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 6_Walking Down_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/ea3b8aa59be2241405e7e353a2fdbf865b51e9f0f75b7e047fae00a0929348f9_Male Character 6_Walking Down_3.png",
+          "name": "Male Character 6_Walking Down_3.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 6_Walking Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 6_Walking Left_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/06a6a6b738e2cf6e05904de96fe6fffe00d5213c063d3daa6733c0b71ae218eb_Male Character 6_Walking Left_1.png",
+          "name": "Male Character 6_Walking Left_1.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 6_Walking Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 6_Walking Left_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/a388e320db70e0fdb57b5dd0358f055fad4e8144bcbe44f0677a48f90f878b41_Male Character 6_Walking Left_2.png",
+          "name": "Male Character 6_Walking Left_2.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 6_Walking Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 6_Walking Left_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/2385948d28d1979b03a4f6c0a8c1f9008dff0ae29e455e38b4b7f51573e775a6_Male Character 6_Walking Left_3.png",
+          "name": "Male Character 6_Walking Left_3.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 6_Walking Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 6_Walking Right_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/0323f674dcbc258854ebdb4b234412327003923789a567b846f295083942abb2_Male Character 6_Walking Right_1.png",
+          "name": "Male Character 6_Walking Right_1.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 6_Walking Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 6_Walking Right_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/e2b7bf4848519b31373e6ec23d8a7b96f18ec7a16135404213f2971d93bc35dd_Male Character 6_Walking Right_2.png",
+          "name": "Male Character 6_Walking Right_2.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 6_Walking Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 6_Walking Right_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/6afa77c189a250cf4543f67570fef3cc075a15666f512150cf74b961fc330b5f_Male Character 6_Walking Right_3.png",
+          "name": "Male Character 6_Walking Right_3.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 6_Walking Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 6_Walking Up_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/c0e7506d1596aac17c26ac746d0585f4842c7617c4a44c200370d0bb7c3f16d0_Male Character 6_Walking Up_1.png",
+          "name": "Male Character 6_Walking Up_1.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 6_Walking Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 6_Walking Up_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/6edaae1dec19e5743f8b318d8f8dc1fd36767ac3a74d5ed4ed72bc4b358bf645_Male Character 6_Walking Up_2.png",
+          "name": "Male Character 6_Walking Up_2.png"
+        }
+      },
+      {
+        "file": "assets/Male Character 6_Walking Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 6_Walking Up_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/e340e75f8279fc72890d969470be625765323ec8941a33183258a51a6c75800a_Male Character 6_Walking Up_3.png",
+          "name": "Male Character 6_Walking Up_3.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 8_Walking Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 8_Walking Down_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/2cfd88845ecaf1aac30721f80f52b756097fc2ce7e94ee4d496639ddcd72e99e_Female Character 8_Walking Down_1.png",
+          "name": "Female Character 8_Walking Down_1.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 8_Walking Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 8_Walking Down_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/bfb664d2df9abf6d113019523d8cdf1670e9b22ca4cdfd90d545036cdc30513a_Female Character 8_Walking Down_2.png",
+          "name": "Female Character 8_Walking Down_2.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 8_Walking Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 8_Walking Down_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/2ef63776fa095edc737ca9215b99b5efe7c9f59818f1f951db3acd0bd916d23e_Female Character 8_Walking Down_3.png",
+          "name": "Female Character 8_Walking Down_3.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 8_Walking Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 8_Walking Left_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/0ff77929a5858e5bd131377fb6ce08ec30897c1df8f69a180abbebba6289ae9e_Female Character 8_Walking Left_1.png",
+          "name": "Female Character 8_Walking Left_1.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 8_Walking Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 8_Walking Left_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/8becf61fb8133e9cbb03df4e7acb8a661bbebda96b376fbc694abc52df12687f_Female Character 8_Walking Left_2.png",
+          "name": "Female Character 8_Walking Left_2.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 8_Walking Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 8_Walking Left_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/4ea4ee883a06549d1e62822eb174e8e42089d4cfc536c85dab8ab2679ce8ab16_Female Character 8_Walking Left_3.png",
+          "name": "Female Character 8_Walking Left_3.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 8_Walking Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 8_Walking Right_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/6d1eec502236aa89c345119254cb8b3d19b6ccdb5dc0e0218a9f064d5764cfec_Female Character 8_Walking Right_1.png",
+          "name": "Female Character 8_Walking Right_1.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 8_Walking Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 8_Walking Right_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/b9cce67444c641a8bc51baddd51676c0b66a0e9fad7214fc2db70a40b4267141_Female Character 8_Walking Right_2.png",
+          "name": "Female Character 8_Walking Right_2.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 8_Walking Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 8_Walking Right_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/ee35560c607c34b310386f10bfd047ba797fe53460179738c263784c0631ca15_Female Character 8_Walking Right_3.png",
+          "name": "Female Character 8_Walking Right_3.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 8_Walking Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 8_Walking Up_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/2e25f6b7f6c242f82dd447455e181234eb3c664fdf8dd780e9f372d55a26972b_Female Character 8_Walking Up_1.png",
+          "name": "Female Character 8_Walking Up_1.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 8_Walking Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 8_Walking Up_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/fcc1e2abcf1f6231a674a174e7ee6002873730fa184eb137ad3fff087728583a_Female Character 8_Walking Up_2.png",
+          "name": "Female Character 8_Walking Up_2.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 8_Walking Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 8_Walking Up_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/9bea0f583a55369702c6bf99b149d4f8a672f2ea7817ed82dda7ee79ace65d4d_Female Character 8_Walking Up_3.png",
+          "name": "Female Character 8_Walking Up_3.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -3414,6 +3990,534 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "5e087e7ea93255b589f956d324499963c0c72fdce5559abb9fdc1eea9a32cbe5",
+      "name": "FemaleCharacter3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Walking Down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 3_Walking Down_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 3_Walking Down_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 3_Walking Down_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "a5ff57875a83897300e67832c2b7bff4bd169c45c77d3990259d3c824e36dd70",
+      "name": "FemaleCharacter8",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Walking Down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 8_Walking Down_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 8_Walking Down_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 8_Walking Down_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "9bf0b748b51536d0777d937f9890bead0b12d33e1a9b9eee12ccc9b233802308",
+      "name": "MaleCharacter11",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Walking Down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Male Character 11_Walking Down_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 14,
+                        "y": 2
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Male Character 11_Walking Down_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 14,
+                        "y": 2
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Male Character 11_Walking Down_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 14,
+                        "y": 2
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "0416eeca5388fbb0755d9acee278873e0c458d89ebe40278eafce2b9d8e200f5",
+      "name": "MaleCharacter6",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Walking Down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Male Character 6_Walking Down_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Male Character 6_Walking Down_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Male Character 6_Walking Down_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3433,6 +4537,18 @@
       },
       {
         "objectName": "npc_4"
+      },
+      {
+        "objectName": "FemaleCharacter3"
+      },
+      {
+        "objectName": "FemaleCharacter8"
+      },
+      {
+        "objectName": "MaleCharacter11"
+      },
+      {
+        "objectName": "MaleCharacter6"
       }
     ]
   },
@@ -4062,7 +5178,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 1.0337203300802555,
+        "zoomFactor": 0.9358233664384482,
         "windowMask": false
       },
       "objectsGroups": [
@@ -4123,21 +5239,6 @@
         }
       ],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree1",
-          "persistentUuid": "0942d96b-64e0-4177-80d6-af792be074c8",
-          "width": 0,
-          "x": 528,
-          "y": 166,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -4294,21 +5395,6 @@
           "height": 0,
           "layer": "",
           "name": "Tree1",
-          "persistentUuid": "8cb20257-5d72-4286-8b9a-d708ce475792",
-          "width": 0,
-          "x": 784,
-          "y": 83,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree1",
           "persistentUuid": "5e6e182a-d068-419f-be1d-90e7b6ae5bfb",
           "width": 0,
           "x": 888,
@@ -4372,21 +5458,6 @@
           "persistentUuid": "190ecd12-c376-44e0-8596-4f248869c9b2",
           "width": 0,
           "x": 880,
-          "y": 123,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree1",
-          "persistentUuid": "661388eb-93d3-4e91-b524-375e2e2bf730",
-          "width": 0,
-          "x": 784,
           "y": 123,
           "zOrder": 8,
           "numberProperties": [],
@@ -4795,21 +5866,6 @@
           "x": 408,
           "y": 91,
           "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree1",
-          "persistentUuid": "bb26eca6-bd33-48a5-a751-fb3e32cd1fec",
-          "width": 0,
-          "x": 656,
-          "y": 94,
-          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5568,8 +6624,8 @@
           "name": "NewSprite4",
           "persistentUuid": "18970154-84ec-446a-b847-fd334b9aedd3",
           "width": 128,
-          "x": 648,
-          "y": 48,
+          "x": 663,
+          "y": 46,
           "zOrder": 2011,
           "numberProperties": [],
           "stringProperties": [],
@@ -6271,21 +7327,6 @@
           "height": 0,
           "layer": "",
           "name": "Tree2",
-          "persistentUuid": "a6fb3e74-2378-402f-a75f-f6962e8d37bb",
-          "width": 0,
-          "x": 528,
-          "y": 223,
-          "zOrder": 32,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree2",
           "persistentUuid": "c4f8f996-eb51-4e99-84f4-6ae3a05d83d6",
           "width": 0,
           "x": 568,
@@ -6417,6 +7458,219 @@
           "x": 379,
           "y": 37,
           "zOrder": 2036,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Dialogue",
+          "name": "FactBox1",
+          "persistentUuid": "80a79dd4-d938-47fe-a2a9-832c7ef7ecfa",
+          "width": 0,
+          "x": 344,
+          "y": 464,
+          "zOrder": 2037,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 8,
+          "keepRatio": true,
+          "layer": "",
+          "name": "E",
+          "persistentUuid": "5e5c9da5-53a6-4855-92d1-4b7f9c6afba9",
+          "width": 8,
+          "x": 660,
+          "y": 87,
+          "zOrder": 2019,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FemaleCharacter3",
+          "persistentUuid": "5f01a78e-0ae1-4f61-b652-7ab30e0e6472",
+          "width": 0,
+          "x": 507,
+          "y": 134,
+          "zOrder": 2038,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 8,
+          "keepRatio": true,
+          "layer": "",
+          "name": "E",
+          "persistentUuid": "977b3c8b-e97e-477a-9870-a977adc1e3fc",
+          "width": 8,
+          "x": 512,
+          "y": 124,
+          "zOrder": 2019,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Dialogue",
+          "name": "FactBox2",
+          "persistentUuid": "1fb92362-28bf-4928-ad77-ba14590adc09",
+          "width": 0,
+          "x": 344,
+          "y": 464,
+          "zOrder": 2039,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FemaleCharacter8",
+          "persistentUuid": "93c6f94b-0579-45be-bcb1-c4ef4fb6f04b",
+          "width": 0,
+          "x": 800,
+          "y": 112,
+          "zOrder": 2040,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 8,
+          "keepRatio": true,
+          "layer": "",
+          "name": "E",
+          "persistentUuid": "d86fdb78-4ecc-40e5-b546-3195240dbc69",
+          "width": 8,
+          "x": 804,
+          "y": 102,
+          "zOrder": 2019,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Dialogue",
+          "name": "FactBox3",
+          "persistentUuid": "cabffdb1-8c61-49ab-a385-3190a86bc1b8",
+          "width": 0,
+          "x": 344,
+          "y": 464,
+          "zOrder": 2041,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 8,
+          "keepRatio": true,
+          "layer": "",
+          "name": "E",
+          "persistentUuid": "e1ab59ea-fe9f-4187-bf84-b78fef2ba170",
+          "width": 8,
+          "x": 586,
+          "y": 284,
+          "zOrder": 2019,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MaleCharacter11",
+          "persistentUuid": "602b4de6-5f1d-4cdc-b0e8-62bcdbde1942",
+          "width": 0,
+          "x": 582,
+          "y": 294,
+          "zOrder": 2042,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Dialogue",
+          "name": "FactBox4",
+          "persistentUuid": "d4be779f-7821-4257-8844-e857974a23cf",
+          "width": 0,
+          "x": 344,
+          "y": 464,
+          "zOrder": 2043,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MaleCharacter6",
+          "persistentUuid": "724a7ad2-57c3-45be-b80f-b4853fdcc681",
+          "width": 0,
+          "x": 520,
+          "y": 192,
+          "zOrder": 2044,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 8,
+          "keepRatio": true,
+          "layer": "",
+          "name": "E",
+          "persistentUuid": "8513a0ee-9820-43b5-b04c-6ecb624fb0dd",
+          "width": 8,
+          "x": 525,
+          "y": 181,
+          "zOrder": 2019,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8228,6 +9482,71 @@
               ]
             }
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "FactBox1",
+          "type": "TwoChoicesDialogBoxes::TwoChoicesDialogBox",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "TextMessage": "Fact: This Koi Pond is located in Porter College. Highly Reccomend!",
+            "LabelButtonID0": "Continue",
+            "LabelButtonID1": "Exit"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "FactBox2",
+          "type": "TwoChoicesDialogBoxes::TwoChoicesDialogBox",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "TextMessage": "Fact: UCSC dining has saved 1 million gallons of water since eliminating trays from the dining hall in 2009!",
+            "LabelButtonID0": "Continue",
+            "LabelButtonID1": "Exit"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "FactBox3",
+          "type": "TwoChoicesDialogBoxes::TwoChoicesDialogBox",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "TextMessage": "Fact: Famous author Robert Heinlein's complete archive is available at the McHenry Library!",
+            "LabelButtonID0": "Continue",
+            "LabelButtonID1": "Exit"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "FactBox4",
+          "type": "TwoChoicesDialogBoxes::TwoChoicesDialogBox",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "TextMessage": "Fact: Baskin Engineering is home to six departments of majors!",
+            "LabelButtonID0": "Continue",
+            "LabelButtonID1": "Exit"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "FactBox5",
+          "type": "TwoChoicesDialogBoxes::TwoChoicesDialogBox",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "TextMessage": "Fact: Baskin Engineering is home to six departments of majors!",
+            "LabelButtonID0": "Continue",
+            "LabelButtonID1": "Exit"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -8298,6 +9617,21 @@
           },
           {
             "objectName": "DialogBox4"
+          },
+          {
+            "objectName": "FactBox1"
+          },
+          {
+            "objectName": "FactBox2"
+          },
+          {
+            "objectName": "FactBox3"
+          },
+          {
+            "objectName": "FactBox4"
+          },
+          {
+            "objectName": "FactBox5"
           },
           {
             "objectName": "NewSprite"
@@ -8423,6 +9757,38 @@
               },
               "parameters": [
                 "DialogBox4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "FactBox1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "FactBox2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "FactBox3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "FactBox4"
               ]
             },
             {
@@ -9579,6 +10945,854 @@
                   },
                   "parameters": [
                     "DialogBox4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "E",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Player",
+                    "TopDownMovement",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Dialogue 5",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"e\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::IsButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "\"A\"",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "npc_4",
+                    "20",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "FactBox1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "E"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Player",
+                    "TopDownMovement",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Talk.wav",
+                    "",
+                    "50",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "FactBox1"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TwoChoicesDialogBoxes::TwoChoicesDialogBox::IsYesClicked"
+                      },
+                      "parameters": [
+                        "FactBox1",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "FactBox1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "E",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement",
+                        "yes"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustResumed"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Transition"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "FactBox1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "E",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Player",
+                    "TopDownMovement",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Dialogue 6",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"e\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::IsButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "\"A\"",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "FemaleCharacter3",
+                    "20",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "FactBox2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "E"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Player",
+                    "TopDownMovement",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Talk.wav",
+                    "",
+                    "50",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "FactBox2"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TwoChoicesDialogBoxes::TwoChoicesDialogBox::IsYesClicked"
+                      },
+                      "parameters": [
+                        "FactBox2",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "FactBox2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "E",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement",
+                        "yes"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustResumed"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Transition"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "FactBox2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "E",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Player",
+                    "TopDownMovement",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Dialogue 7",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"e\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::IsButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "\"A\"",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "FemaleCharacter8",
+                    "20",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "FactBox3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "E"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Player",
+                    "TopDownMovement",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Talk.wav",
+                    "",
+                    "50",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "FactBox3"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TwoChoicesDialogBoxes::TwoChoicesDialogBox::IsYesClicked"
+                      },
+                      "parameters": [
+                        "FactBox3",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "FactBox3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "E",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement",
+                        "yes"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustResumed"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Transition"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "FactBox3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "E",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Player",
+                    "TopDownMovement",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Dialogue 8",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"e\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::IsButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "\"A\"",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "MaleCharacter11",
+                    "20",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "FactBox4",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "E"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Player",
+                    "TopDownMovement",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Talk.wav",
+                    "",
+                    "50",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "FactBox4"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TwoChoicesDialogBoxes::TwoChoicesDialogBox::IsYesClicked"
+                      },
+                      "parameters": [
+                        "FactBox4",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "FactBox4"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "E",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement",
+                        "yes"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustResumed"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Transition"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "FactBox4"
                   ]
                 },
                 {
@@ -17770,7 +19984,7 @@
               "content": {
                 "text": "Default message. Continue?",
                 "opacity": 255,
-                "scale": 2,
+                "scale": 1.5,
                 "fontSize": 20,
                 "tint": "255;255;255",
                 "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
@@ -17882,35 +20096,12 @@
               "name": "YesButton",
               "persistentUuid": "a0ca78d3-0a23-4bbe-89de-fb2d0a53996c",
               "width": 105,
-              "x": 350,
-              "y": 160,
-              "zOrder": 510,
-              "numberProperties": [],
-              "stringProperties": [],
-              "initialVariables": []
-            },
-            {
-              "angle": 0,
-              "customSize": true,
-              "depth": 32,
-              "height": 36,
-              "layer": "",
-              "name": "NoButton",
-              "persistentUuid": "6781aafa-3ae9-4820-bb97-682a524a0cf6",
-              "width": 103,
               "x": 471,
               "y": 160,
               "zOrder": 510,
               "numberProperties": [],
               "stringProperties": [],
-              "initialVariables": [
-                {
-                  "name": "ID",
-                  "persistentUuid": "bb563dbe-93eb-4412-b843-f60016b9a893",
-                  "type": "number",
-                  "value": 1
-                }
-              ]
+              "initialVariables": []
             }
           ]
         }
