@@ -4062,7 +4062,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 1.5390040000682483,
+        "zoomFactor": 1.0337203300802555,
         "windowMask": false
       },
       "objectsGroups": [
@@ -15048,7 +15048,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6897782140104498,
+        "zoomFactor": 0.495084007374889,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -15130,9 +15130,26 @@
           "name": "Image_credits_",
           "persistentUuid": "94c69135-3e0d-491b-9dc5-69c9ea1abdf1",
           "width": 1016,
-          "x": 103,
-          "y": 190,
+          "x": 109,
+          "y": 205,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "back_button",
+          "persistentUuid": "7a6e92a8-14a7-4371-955f-146df9c2af32",
+          "width": 144,
+          "x": 556,
+          "y": 618,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15248,7 +15265,7 @@
           "string": "Image credits:  \nUC Santa Cruz logo: University of California, Santa Cruz. ForestGEO. (2019, September 26). https://forestgeo.si.edu/university-california-santa-cruz-0  \nUC Santa Cruz second logo: UC Santa Cruz Banana Slugs logo (UCSC: 01). PNG Logo Vector Brand Downloads (SVG, EPS). (2023, June 8). https://www.freelogovectors.net/uc-santa-cruz-banana-slugs-logo/ \nBaskin's engineering logo: Home. Baskin Engineering Toolkit. (n.d.). https://toolkit.engineering.ucsc.edu/baskin-engineering-brand/ \nUCSC Dining Hall logo: UCSC Dining Services. GET. (n.d.). https://get.cbord.com/ucsc/full/about.php \nCartoon building: &#24494;&#34013;@-. (n.d.). Bank building clipart vector, Bank Clipart cartoon style Blue Office Building Black Windows Bank Building, Bank Clipart, Bank, Clipart PNG image for free download. Pngtree. https://pngtree.com/freepng/bank-clipart-cartoon-style-blue-office-building-black-windows-bank-building_5831988.html  \nPond: 699pic. (n.d.). Pond PNG, Vector, PSD, and clipart with transparent background for free download. Pngtree. https://pngtree.com/free-png-vectors/pond \nFish: Fisher, S. (2023, January 27). The best places to download fish clip art for free. The Spruce Crafts. https://www.thesprucecrafts.com/free-fish-clip-art-1356296 \n\nDialogue/Question source credits: \n50 things you might not know about UC Santa Cruz... UC Santa Cruz celebrates 50 years. (n.d.). http://50years.ucsc.edu/50things/  \nSchool of Engineering. (n.d.). https://registrar.ucsc.edu/catalog/archive/13-14/programs-courses/program-statements/engr.html#:~:text=The%20Baskin%20School%20of%20Engineering%20includes%20the%20Department%20of%20Applied,disciplinary%20Technology%20and%20Information%20Management \n",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 17,
+          "characterSize": 16,
           "color": {
             "b": 28,
             "g": 231,
@@ -15272,8 +15289,90 @@
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 17,
+            "characterSize": 16,
             "color": "248;231;28"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "back_button",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "TopPadding": 8,
+            "BottomPadding": 8,
+            "LeftPadding": 8,
+            "RightPadding": 8
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 8,
+              "height": 32,
+              "leftMargin": 8,
+              "rightMargin": 8,
+              "texture": "Border2.png",
+              "tiled": false,
+              "topMargin": 8,
+              "width": 32
+            },
+            "Idle": {
+              "bottomMargin": 8,
+              "height": 32,
+              "leftMargin": 8,
+              "rightMargin": 8,
+              "texture": "Border.png",
+              "tiled": false,
+              "topMargin": 8,
+              "width": 32
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Back",
+              "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
+              "textAlignment": "center",
+              "characterSize": 25,
+              "color": {
+                "b": 10,
+                "g": 16,
+                "r": 17
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "44;77;5",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Back",
+                "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 25,
+                "color": "17;16;10"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 8,
+              "height": 32,
+              "leftMargin": 8,
+              "rightMargin": 8,
+              "texture": "Border2.png",
+              "tiled": false,
+              "topMargin": 8,
+              "width": 32
+            }
           }
         }
       ],
@@ -15291,10 +15390,68 @@
           },
           {
             "objectName": "Image_credits_"
+          },
+          {
+            "objectName": "back_button"
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsHovered"
+              },
+              "parameters": [
+                "back_button",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "HoverSound.wav",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+              },
+              "parameters": [
+                "back_button",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"title page\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
