@@ -7674,6 +7674,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Dialogue",
+          "name": "FactBox5",
+          "persistentUuid": "245aa562-e95c-4777-b585-93cffce7c1d6",
+          "width": 0,
+          "x": 344,
+          "y": 464,
+          "zOrder": 2045,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -9543,7 +9559,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "TextMessage": "Fact: Baskin Engineering is home to six departments of majors!",
+            "TextMessage": "Fact: UCSC has 10 residential colleges where students can stay in dorms or apartments!",
             "LabelButtonID0": "Continue",
             "LabelButtonID1": "Exit"
           }
@@ -9789,6 +9805,14 @@
               },
               "parameters": [
                 "FactBox4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "FactBox5"
               ]
             },
             {
@@ -11793,6 +11817,218 @@
                   },
                   "parameters": [
                     "FactBox4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "E",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Player",
+                    "TopDownMovement",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Dialogue 9",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"e\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::IsButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "\"A\"",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "MaleCharacter6",
+                    "20",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "FactBox5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "E"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Player",
+                    "TopDownMovement",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Talk.wav",
+                    "",
+                    "50",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "FactBox5"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TwoChoicesDialogBoxes::TwoChoicesDialogBox::IsYesClicked"
+                      },
+                      "parameters": [
+                        "FactBox5",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "FactBox5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "E",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement",
+                        "yes"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustResumed"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Transition"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "FactBox5"
                   ]
                 },
                 {
