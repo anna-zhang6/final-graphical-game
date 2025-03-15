@@ -2024,6 +2024,34 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/5c3135f6fa8587da82ddea950881fc8b35d422bb806d9331f8b47fdc715ee76a_Wood Bar Border.png",
           "name": "Wood Bar Border.png"
         }
+      },
+      {
+        "file": "assets/Coins 6.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "982e7b54cdd141371ad82b0ab7ce659f5b4b7ca6eb1f87c895d4da99d3f98ce2_Coins 6.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Coins/982e7b54cdd141371ad82b0ab7ce659f5b4b7ca6eb1f87c895d4da99d3f98ce2_Coins 6.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Walk_02.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "6e7f6f4f07457e5c074202497f9b57fd8b48f2ed196d3cf2224d208023dbe8b7_Walk_02.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/DirtyGround/Walk/6e7f6f4f07457e5c074202497f9b57fd8b48f2ed196d3cf2224d208023dbe8b7_Walk_02.wav",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -4831,6 +4859,88 @@
           "width": 32
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "main_menu2",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "TopPadding": 8,
+        "BottomPadding": 8,
+        "LeftPadding": 8,
+        "RightPadding": 8
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 8,
+          "height": 32,
+          "leftMargin": 8,
+          "rightMargin": 8,
+          "texture": "Border2.png",
+          "tiled": false,
+          "topMargin": 8,
+          "width": 32
+        },
+        "Idle": {
+          "bottomMargin": 8,
+          "height": 32,
+          "leftMargin": 8,
+          "rightMargin": 8,
+          "texture": "Border.png",
+          "tiled": false,
+          "topMargin": 8,
+          "width": 32
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "MAIN MENU",
+          "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
+          "textAlignment": "center",
+          "characterSize": 25,
+          "color": {
+            "b": 10,
+            "g": 16,
+            "r": 17
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "44;77;5",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "MAIN MENU",
+            "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 25,
+            "color": "17;16;10"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 8,
+          "height": 32,
+          "leftMargin": 8,
+          "rightMargin": 8,
+          "texture": "Border2.png",
+          "tiled": false,
+          "topMargin": 8,
+          "width": 32
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -4874,6 +4984,9 @@
       },
       {
         "objectName": "main_menu"
+      },
+      {
+        "objectName": "main_menu2"
       }
     ]
   },
@@ -5418,7 +5531,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 1.3478064124332179,
+        "zoomFactor": 0.5504843331990881,
         "windowMask": false
       },
       "objectsGroups": [
@@ -5474,6 +5587,11 @@
       "variables": [
         {
           "name": "Player_Points",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "stepsound",
           "type": "number",
           "value": 0
         }
@@ -8024,6 +8142,23 @@
           "x": 524,
           "y": 181,
           "zOrder": 2061,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "main_menu2",
+          "persistentUuid": "2c403e38-128e-4ba5-ad8d-ff63da7c3351",
+          "width": 201,
+          "x": 1013,
+          "y": 627,
+          "zOrder": 2062,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10612,23 +10747,24 @@
             },
             {
               "type": {
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "33859870684957834d2e4684bb5ff45a72ae9d24dca68b6aa9391b6746577472_BeBop for Joey.aac",
-                "no",
-                "65",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "HideLayer"
               },
               "parameters": [
                 "",
                 "\"big screen\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "33859870684957834d2e4684bb5ff45a72ae9d24dca68b6aa9391b6746577472_BeBop for Joey.aac",
+                "2",
+                "yes",
+                "",
+                ""
               ]
             }
           ]
@@ -10695,6 +10831,15 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "StopMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
             }
           ]
         },
@@ -10703,22 +10848,32 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "TopDownMovementBehavior::IsMoving"
               },
               "parameters": [
-                "",
-                "\"Space\""
+                "Player",
+                "TopDownMovement"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "HideLayer"
+                "value": "PlayMusicCanal"
               },
               "parameters": [
                 "",
-                "\"big screen\""
+                "6e7f6f4f07457e5c074202497f9b57fd8b48f2ed196d3cf2224d208023dbe8b7_Walk_02.wav",
+                "1",
+                "yes",
+                "100",
+                ""
               ]
             }
           ]
@@ -10987,6 +11142,19 @@
                     "Player",
                     "TopDownMovement",
                     "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "33859870684957834d2e4684bb5ff45a72ae9d24dca68b6aa9391b6746577472_BeBop for Joey.aac",
+                    "2",
+                    "yes",
+                    "",
+                    ""
                   ]
                 }
               ]
@@ -13021,6 +13189,18 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "982e7b54cdd141371ad82b0ab7ce659f5b4b7ca6eb1f87c895d4da99d3f98ce2_Coins 6.aac",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -13124,6 +13304,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
