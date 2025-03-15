@@ -5332,6 +5332,12 @@
                 "start_button",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -5386,6 +5392,12 @@
                 "credits",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -11910,15 +11922,6 @@
                     },
                     {
                       "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "E_3",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "ActivateBehavior"
                       },
                       "parameters": [
@@ -12109,15 +12112,6 @@
                       },
                       "parameters": [
                         "FactBox1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "E_4",
-                        ""
                       ]
                     },
                     {
@@ -12327,15 +12321,6 @@
                     },
                     {
                       "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "E_5",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "ScoreCounter::ScoreCounter::SetScore"
                       },
                       "parameters": [
@@ -12537,15 +12522,6 @@
                       },
                       "parameters": [
                         "FactBox3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "E_6",
-                        ""
                       ]
                     },
                     {
@@ -12755,15 +12731,6 @@
                     },
                     {
                       "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "E_7",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "ScoreCounter::ScoreCounter::SetScore"
                       },
                       "parameters": [
@@ -12965,15 +12932,6 @@
                       },
                       "parameters": [
                         "FactBox5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "E_8",
-                        ""
                       ]
                     },
                     {
@@ -18920,6 +18878,12 @@
                 "back_button",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
