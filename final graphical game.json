@@ -16157,22 +16157,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Background2",
-          "persistentUuid": "64eada9d-7281-48f6-83aa-7f0a209cbba4",
-          "width": 0,
-          "x": 1296,
-          "y": 293,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 366,
@@ -16186,6 +16170,44 @@
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "Background2",
+          "persistentUuid": "d1744130-e454-42e4-980c-506e799ffbfa",
+          "width": 0,
+          "x": 1299,
+          "y": 251,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 164,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "Tilemap_Ground",
+          "persistentUuid": "5ec86623-f3cb-47c4-af4c-9e02aabeb55d",
+          "width": 304,
+          "x": 1328,
+          "y": 489,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":8,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[165,166,166,166,166,166,166,167],[187,188,188,188,188,188,188,189],[187,188,188,188,188,188,188,189],[209,210,210,210,210,210,210,211]]}]}"
+            }
+          ],
           "initialVariables": []
         }
       ],
@@ -17423,22 +17445,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Background2",
-          "persistentUuid": "64eada9d-7281-48f6-83aa-7f0a209cbba4",
-          "width": 0,
-          "x": 1296,
-          "y": 293,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 435,
@@ -17452,6 +17458,28 @@
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 123,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "Tilemap_Ground",
+          "persistentUuid": "873f11e0-e867-4b7a-b971-4c1912718d10",
+          "width": 222,
+          "x": 1365,
+          "y": 521,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":6,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[154,155,155,155,155,156],[176,177,177,177,177,178],[198,199,199,199,199,200]]}]}"
+            }
+          ],
           "initialVariables": []
         }
       ],
