@@ -5543,7 +5543,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 0.5504843331990881,
+        "zoomFactor": 1.3038404810405535,
         "windowMask": false
       },
       "objectsGroups": [
@@ -7457,23 +7457,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 8,
-          "keepRatio": true,
-          "layer": "",
-          "name": "E",
-          "persistentUuid": "a527c40f-6c29-4bfc-9604-d8aac82f39c8",
-          "width": 8,
-          "x": 494,
-          "y": 157,
-          "zOrder": 2019,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -8171,6 +8154,22 @@
           "x": 1013,
           "y": 627,
           "zOrder": 2062,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "E_3",
+          "persistentUuid": "1e726054-d1e0-4552-a8a0-22f35b11234b",
+          "width": 0,
+          "x": 492,
+          "y": 158,
+          "zOrder": 2063,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
